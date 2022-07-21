@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Button from "./Button";
 
 const Team = () => {
@@ -25,7 +26,9 @@ const Team = () => {
           </tr>
         </tbody>
       </table>
-      <Button description={"Ver Mas"} />
+      <Link to="/about">
+        <Button description={"Ver Mas"} />
+      </Link>
     </section>
   );
 };
