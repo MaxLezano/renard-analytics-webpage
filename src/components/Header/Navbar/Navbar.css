@@ -1,0 +1,29 @@
+.bgBurguer{
+  display: flex;
+  justify-content: flex-end;
+}
+.textNav{
+  color: white;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.contTextNav{
+  margin-right: 7em;
+}
+@media (max-width: 600px) {
+  .bgBurguer{
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .textNav{
+    color: black;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .contTextNav{
+    margin-right: 0;
+  }
+}
