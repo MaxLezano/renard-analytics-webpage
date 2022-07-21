@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import App from "./App";
-import About  from "./components/Main/About";
+import About from "./components/About";
 import Experience from "./components/Main/Experience";
 import reportWebVitals from "./reportWebVitals";
 
@@ -12,8 +12,8 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="/blog" element={<Experience />}/> 
-        <Route path="/about" element={<About />}/>
+        <Route path="/blog" element={<Experience />} />
+        <Route path="/about" element={<About />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
