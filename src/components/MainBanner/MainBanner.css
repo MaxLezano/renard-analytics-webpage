@@ -23,7 +23,7 @@
   padding-left: 1rem;
   letter-spacing: -0.05em;
 }
-.titleBannerPasion{
+.titleBannerPasion, .fontButton{
   color: rgb(255, 72, 0);
 }
 .boxTitle{
@@ -31,6 +31,9 @@
   display: inline-block;
   --tw-skew-x: -12deg;
   transform: skewX(var(--tw-skew-x));
+}
+.fontButton{
+  font-weight: 900;
 }
 
 @media (max-width: 600px) {

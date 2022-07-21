@@ -1,6 +1,6 @@
 import React from 'react';
+import Button from '../Button';
 import './MainBanner.css';
-// import Button from '../Button/Button';
 
 function MainBanner() {
 	return (
@@ -13,10 +13,10 @@ function MainBanner() {
 						<div className='boxTitle'>
 							<h1 className='px-3 titleBannerPasion'>A la pasión</h1>
 						</div>
+						<Button description={"Nuestros Productos"} className={"btn btn-light py-3 px-4 mt-5 ms-5 fontButton"} />
 					</div>
 				</div>
 			</div>
-			{/* <Button /> */}
 		</div>
 	)
 }

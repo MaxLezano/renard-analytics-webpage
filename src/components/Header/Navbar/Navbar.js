@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Button from "../../Main/Button";
+import Button from "../../Button";
 import logoImage from "../../../assets/images/logo-white.png";
 import "./Navbar.css";
 
@@ -39,7 +39,7 @@ function Navbar() {
           <Link to='/contact-us'>
             <Button
               description={"Contratar"}
-              className={"btn btn-danger my-3 px-5"}
+              className={"btn btn-danger px-5 py-2"}
             />
           </Link>
         </div>
