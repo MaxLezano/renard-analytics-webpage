@@ -10,3 +10,4 @@ const Card = ({ info }) => {
 };
 
 export default Card;
+  
