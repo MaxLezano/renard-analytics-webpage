@@ -35,7 +35,7 @@ const Services = () => {
         <h2>Nuestros Servicios</h2>
         <div>
           {services.map((service) => (
-            <Card key={Math.random()} info={service} />
+            <Card key={Math.random()} card={service} />
           ))}
         </div>
       </section>

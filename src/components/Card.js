@@ -1,13 +1,14 @@
 import React from "react";
 
-const Card = ({ info }) => {
+const Card = ({ card }) => {
   return (
     <div>
-      <h3>{info.title}</h3>
-      <p>{info.description}</p>
+      <img alt="icon or img" />
+      <h3>{card.title}</h3>
+      <p>{card.description}</p>
+      {card.url ? <a href={card.url} target="_blank" rel="noreferrer">LinkedIn</a> : null}
     </div>
   );
 };
 
 export default Card;
-  
