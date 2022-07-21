@@ -3,7 +3,7 @@ import React from 'react'
 const About = () => {
   return (
     <div>
-        ACA VA LA SECCION QUIENES SOMOS
+        About Us Section
     </div>
   )
 }

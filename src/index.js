@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import App from "./App";
 import About from "./components/About";
-import Experience from "./components/Main/Experience";
+import Blog from "./components/Blog";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -12,7 +12,7 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="/blog" element={<Experience />} />
+        <Route path="/blog" element={<Blog />} />
         <Route path="/about" element={<About />} />
       </Routes>
     </BrowserRouter>
