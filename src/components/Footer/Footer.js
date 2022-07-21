@@ -1,10 +1,11 @@
 import React from 'react';
 import logoImage from '../../assets/images/logo-white.png';
 import { FacebookRounded, Twitter, YouTube } from '@mui/icons-material';
+import './Footer.css';
 
 function Footer() {
   return (
-    <div className='container-fluid bg-dark py-5'>
+    <div className='container-fluid py-5 bgColor'>
       <div className='row d-flex justify-content-center'>
         <img className='p-3 col-9 col-lg-2' src={logoImage} alt="logo" />
         <div className='text-center p-2 mt-4'>

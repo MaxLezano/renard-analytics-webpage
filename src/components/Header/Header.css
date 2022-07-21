@@ -2,3 +2,10 @@
   position: fixed;
   z-index: 1;
 }
+
+.header_scrolled{
+  position: fixed;
+  z-index: 1;
+  background-color: #212529;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px 0px;
+}
