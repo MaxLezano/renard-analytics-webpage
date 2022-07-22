@@ -16,7 +16,9 @@ function MainBanner() {
 						<div className='boxTitle'>
 							<h1 className='px-3 titleBannerPasion'>{t('mainBanner.titleBannerPasion')}</h1>
 						</div>
-						<Button description={t('mainBanner.ourProducts')} className={"btn btn-light mt-5 fontButton"} />
+						<div>
+							<Button description={t('mainBanner.ourProducts')} className={"btn btn-light mt-5 fontButton"} />
+						</div>
 					</div>
 				</div>
 			</div>

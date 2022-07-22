@@ -1,0 +1,36 @@
+.contactCont{
+  padding-top: 12em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
+.inputStyle{
+  border: 0;
+  border-bottom: 2px solid rgb(220, 220, 220);
+  outline: none;
+  font-style: oblique;
+}
+.inputStyle:hover{
+  border-bottom: 2px solid red;
+  transition: 0.5s;
+}
+.titleContact1, .titleContact2{
+  font-size: 2.8em;
+  font-family:sans-serif;
+  font-weight: 900;
+  letter-spacing: -0.03em;
+}
+.titleContact2{
+  color: red;
+}
+.titleContact1{
+  color: rgb(45, 45, 180);
+}
+.hireSubtitle{
+  font-family:sans-serif;
+  font-weight: 700;
+  color: red;
+  margin-bottom: -0.1em;
+}
+.descContact{
+  color: rgb(45, 45, 180);
+}

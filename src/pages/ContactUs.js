@@ -1,22 +1,15 @@
 import React from 'react';
+import Header from "../components/Header/Header";
+import Footer from "../components/Footer/Footer";
+import ContactCard from '../components/ContactCard/ContactCard';
 
 function ContactUs() {
   return (
-    <div className='container'>
-      <div>
-        <small>Constratar</small>
-        <h1>Todas sus consultas son</h1>
-        <h1>bienvenidas!</h1>
-        <p>
-          Estamos a su disposición por cualquier consulta via correo electrónico a 
-          <b>renardanalytics@gmail.com</b> o través de cualquiera de nuestras redes 
-          sociales.
-        </p>
-      </div>
-      <div>
-        <img src="" alt="vago con un sobre gigante" />
-      </div>
-    </div>
+    <>
+      <Header />
+      <ContactCard />
+      <Footer />
+    </>
   );
 }
 

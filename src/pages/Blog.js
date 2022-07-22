@@ -1,8 +1,16 @@
 import React from 'react'
+import Footer from '../components/Footer/Footer'
+import Header from '../components/Header/Header'
 
 const Blog = () => {
   return (
-    <div>Blog Section</div>
+    <>
+      <Header />
+      <div>
+        Aquí va el blog
+      </div>
+      <Footer />
+    </>
   )
 }
 
