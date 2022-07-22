@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Button from "../../Button";
+import Button from "../../Button/Button";
 import logoImage from "../../../assets/images/logo-white.png";
 import "./Navbar.css";
 import { useTranslation } from 'react-i18next';
