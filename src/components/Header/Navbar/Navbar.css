@@ -7,8 +7,9 @@
   margin-left: 1em;
   margin-right: 1em;
 }
-.contTextNav{
-  margin-right: 7em;
+.dropdown-menu.show {
+  left: 50%!important;
+  transform: translate(-50%, 0)!important;
 }
 @media (max-width: 600px) {
   .bgBurguer{
@@ -21,9 +22,6 @@
   .textNav{
     color: black;
     margin-left: 0;
-    margin-right: 0;
-  }
-  .contTextNav{
     margin-right: 0;
   }
 }
