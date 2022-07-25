@@ -5,7 +5,7 @@ import Header from '../components/Header/Header'
 const Blog = () => {
   return (
     <>
-      <Header />
+      <Header className={'bgPages'}/>
       <div>
         Aquí va el blog
       </div>
