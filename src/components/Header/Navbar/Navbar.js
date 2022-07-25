@@ -38,7 +38,7 @@ function Navbar() {
         </button>
         <div className="collapse navbar-collapse py-2 bgBurguer" id="navbarNavAltMarkup">
           <div className='navbar-nav text-center'>
-            {isHome? <Link className="nav-link textNav" aria-current="page" to="/">Inicio</Link> : null}
+            {isHome? <Link className="nav-link textNav" aria-current="page" to="/">{t('navbar.home')}</Link> : null}
             <Link className="nav-link textNav" aria-current="page" to="/about">
               {t('navbar.aboutUs')}
             </Link>

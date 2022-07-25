@@ -6,6 +6,7 @@
     "blog": "Blog"
   },
   "navbar": {
+    "home": "Inicio",
     "aboutUs": "¿Quienes Somos?",
     "blog": "Blog",
     "hire": "Contratar",
