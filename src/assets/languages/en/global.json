@@ -1,0 +1,21 @@
+{
+  "footer": {
+    "home": "Home",
+    "about": "About",
+    "hire": "Hire",
+    "blog": "Blog"
+  },
+  "navbar": {
+    "home": "Home",
+    "aboutUs": "About us?",
+    "blog": "Blog",
+    "hire": "Hire",
+    "language": "Language"
+  },
+  "mainBanner": {
+    "subtitleBanner": "We are building the sport's future.",
+    "titleBanner": "We accompany",
+    "titleBannerPasion": "To the pasion",
+    "ourProducts": "Our Products"
+  }
+}

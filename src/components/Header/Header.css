@@ -1,4 +1,7 @@
 .header{
-  position: fixed;
+  position: absolute;
   z-index: 1;
+}
+.bgPages{
+  background-color: #212529;
 }

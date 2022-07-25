@@ -1,10 +1,22 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import Button from "../../Main/Button";
+import Button from "../../Button/Button";
 import logoImage from "../../../assets/images/logo-white.png";
 import "./Navbar.css";
+import { useTranslation } from 'react-i18next';
 
 function Navbar() {
+  const [t, i18n] = useTranslation('global');
+  const [isHome, setIsHome] = useState(false);
+  
+  useEffect(() => {
+    if (window.location.pathname !== '/') {
+      setIsHome(true);
+    } else {
+      setIsHome(false);      
+    }
+  }, []);
+
   return (
     <nav className="navbar navbar-expand-lg navbar-dark">
       <div className="container-fluid py-3 col-lg-9">
@@ -24,24 +36,31 @@ function Navbar() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div
-          className="collapse navbar-collapse bgBurguer"
-          id="navbarNavAltMarkup"
-        >
-          <div className="navbar-nav align-items-center contTextNav">
+        <div className="collapse navbar-collapse py-2 bgBurguer" id="navbarNavAltMarkup">
+          <div className='navbar-nav text-center'>
+            {isHome? <Link className="nav-link textNav" aria-current="page" to="/">{t('navbar.home')}</Link> : null}
             <Link className="nav-link textNav" aria-current="page" to="/about">
-              ¿Quienes Somos?
+              {t('navbar.aboutUs')}
             </Link>
             <Link className="nav-link textNav" to="/blog">
-              Blog
+            {t('navbar.blog')}
             </Link>
           </div>
           <Link to='/contact-us'>
             <Button
-              description={"Contratar"}
-              className={"btn btn-danger my-3 px-5"}
+              description={t('navbar.hire')}
+              className={"btn btn-danger px-5 py-2 mx-5 my-2"}
             />
           </Link>
+          <div className="dropdown-center">
+            <button className="btn btn-light" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              {t('navbar.language')}
+            </button>
+            <ul className="dropdown-menu text-center">
+              <li><button className='btn dropdown-item border-0' onClick={() => i18n.changeLanguage('es')}>Español</button></li>
+              <li><button className='btn dropdown-item border-0' onClick={() => i18n.changeLanguage('en')}>Inglés</button></li>
+            </ul>
+          </div>
         </div>
       </div>
     </nav>

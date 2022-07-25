@@ -2,10 +2,10 @@ import React from 'react';
 import Navbar from './Navbar/Navbar';
 import './Header.css';
 
-function Header(){
+function Header({ className }){
   return(
-    <div className='header'>
-      <Navbar/>
+    <div className={`header ${className}`}>
+      <Navbar />
     </div>
   );
 }
