@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import Button from "../Button";
 import Card from "../Card";
 
-
 const services = [
   {
     image: "",
@@ -11,19 +10,19 @@ const services = [
       "Integramos datos de distintas fuentes de forma rápida y eficaz utilizando las más recientes técnicas de ingeniería de datos.",
   },
   {
-    imagen: "",
+    image: "",
     title: "Análisis deportivo",
     description:
       "Analizamos datos cuantitativos y cualitativos para proveer completos informes para la toma de decisiones deportivas, referentes a estrategias, preparación, entrenamientos y más.",
   },
   {
-    imagen: "",
+    image: "",
     title: "Scouting de Jugadores",
     description:
       "Proveemos una búsqueda completa y exhaustiva de jugadores según características específicas, rendimiento, proyección a futuro, similaridad y más.",
   },
   {
-    imagen: "",
+    image: "",
     title: "Asesoría y consultoría",
     description:
       "Asesoramos en la implementación de nuevas tecnologías para el deporte, guiando en el proceso y asegurando que tu inversión tenga el mejor retorno posible.",
@@ -55,7 +54,7 @@ const Main = () => {
             </tr>
           </tbody>
         </table>
-        <Link to="/about">
+        <Link reloadDocument to="/about">
           <Button description={"Ver Mas"} />
         </Link>
       </section>
@@ -88,7 +87,7 @@ const Main = () => {
           o través de cualquiera de nuestras redes sociales.
         </p>
         <img alt="del vago a la par de una carta gigante" />
-        <Link to="/contact-us">
+        <Link reloadDocument to="/contact-us">
           <Button description={"Contactar"} />
         </Link>
       </section>

@@ -3,6 +3,8 @@ import Card from "../Card";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 
+import { Link } from "react-router-dom";
+
 import ICONS from "../../assets/images/icons";
 
 const ourValues = [
@@ -111,10 +113,12 @@ const About = () => {
           ser referentes en acercar las últimas tecnologías en deporte a los
           clubes de la región para que compitan a nivel global.
         </p>
-        <Button
-          description={"Contactar"}
-          className={"btn btn-danger my-3 px-5"}
-        />
+        <Link reloadDocument to="/contact-us">
+          <Button
+            description={"Contactar"}
+            className={"btn btn-danger my-3 px-5"}
+          />
+        </Link>
       </section>
       <section>
         <p>NUESTROS VALORES</p>
