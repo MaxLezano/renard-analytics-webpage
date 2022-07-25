@@ -1,14 +1,11 @@
 import React from "react";
-import Header from "../Header/Header";
-import Footer from "../Footer/Footer";
-import "../Blog/Blog.css";
+import Footer from "../../components/Footer/Footer";
+import Header from "../../components/Header/Header";
 
 const Blog = () => {
   return (
-    <div>
-      <div>
-        <Header />
-      </div>
+    <>
+      <Header />
       <div
         id="carouselExampleControls"
         className="carousel slide mx-5"
@@ -75,7 +72,11 @@ const Blog = () => {
           </div>
           <div className="col-4 p-0 mb-5">
             <div className="card">
-              <img src="https://img.freepik.com/vector-gratis/apreton-manos-dos-socios-comerciales_74855-6685.jpg?w=1380&t=st=1658759811~exp=1658760411~hmac=d14bced16a2a1c890de01c70e014417e367e3b4973a4d3e36511b87760c7de0d" className="card-img-top" alt="..." />
+              <img
+                src="https://img.freepik.com/vector-gratis/apreton-manos-dos-socios-comerciales_74855-6685.jpg?w=1380&t=st=1658759811~exp=1658760411~hmac=d14bced16a2a1c890de01c70e014417e367e3b4973a4d3e36511b87760c7de0d"
+                className="card-img-top"
+                alt="..."
+              />
               <div className="card-body">
                 <h5 className="card-title">Card title</h5>
                 <p className="card-text">
@@ -91,7 +92,7 @@ const Blog = () => {
         </div>
       </div>
       <Footer />
-    </div>
+    </>
   );
 };
 
