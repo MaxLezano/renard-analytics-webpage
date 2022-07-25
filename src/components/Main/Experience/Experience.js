@@ -1,4 +1,5 @@
 import React from "react";
+import imgExperience from "../../../assets/images/technologies.svg"
 
 const Experience = () => {
   return (
@@ -6,7 +7,7 @@ const Experience = () => {
       <p>Nuestra experiencia</p>
       <h3>Un equipo de profesionales con experiencia.</h3>
       <p>Contamos con un equipo de experimentados ingenieros al corriente con un gran abanico de tecnologías.</p>
-      <img alt="iconos de lenguaje de programacion"/>
+      <img src={imgExperience} alt="iconos de lenguaje de programacion"/>
     </section>
   );
 };

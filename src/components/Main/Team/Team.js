@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Button from "./Button";
+import Button from "../../Button";
+import imgTeam from "../../../assets/images/stats-illustration.svg"
 
 const Team = () => {
   return (
     <section>
-      <img alt="grafica de algo" />
+      <img src={imgTeam} alt="grafica de algo" />
       <p>Trabajo en progreso</p>
       <h3>Un equipo experimentado, juntos desde 2021.</h3>
       <p>

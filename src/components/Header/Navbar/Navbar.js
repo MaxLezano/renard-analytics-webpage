@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Button from "../../Main/Button";
+import Button from "../../Main/../Button";
 import logoImage from "../../../assets/images/logo-white.png";
 import "./Navbar.css";
 
@@ -32,7 +32,7 @@ function Navbar() {
             <Link className="nav-link textNav" aria-current="page" to="/about">
               ¿Quienes Somos?
             </Link>
-            <Link className="nav-link textNav" to="/blog">
+            <Link className="nav-link textNav" aria-current="page" to="/blog">
               Blog
             </Link>
           </div>
