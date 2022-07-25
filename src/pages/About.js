@@ -7,7 +7,7 @@ import { ourValues, profiles } from '../dataRenard';
 const About = () => {
   return (
     <>
-      <Header />
+      <Header className={'bgPages'}/>
       <section>
         <img alt="referencia a big data" />
         <p>ACERCA DE RENARD</p>

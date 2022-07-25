@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Button from "../../Button/Button";
 import logoImage from "../../../assets/images/logo-white.png";
@@ -7,6 +7,15 @@ import { useTranslation } from 'react-i18next';
 
 function Navbar() {
   const [t, i18n] = useTranslation('global');
+  const [isHome, setIsHome] = useState(false);
+  
+  useEffect(() => {
+    if (window.location.pathname !== '/') {
+      setIsHome(true);
+    } else {
+      setIsHome(false);      
+    }
+  }, []);
 
   return (
     <nav className="navbar navbar-expand-lg navbar-dark">
@@ -28,7 +37,8 @@ function Navbar() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse py-2 bgBurguer" id="navbarNavAltMarkup">
-          <div className="navbar-nav text-center">
+          <div className='navbar-nav text-center'>
+            {isHome? <Link className="nav-link textNav" aria-current="page" to="/">Inicio</Link> : null}
             <Link className="nav-link textNav" aria-current="page" to="/about">
               {t('navbar.aboutUs')}
             </Link>
