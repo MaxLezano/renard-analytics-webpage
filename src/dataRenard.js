@@ -1,30 +1,30 @@
 import ICONS from "./assets/images/icons";
 
-const services = [
+const carousel = [
   {
-    image: "",
-    title: "Integracion de datos",
-    description:
-      "Integramos datos de distintas fuentes de forma rápida y eficaz utilizando las más recientes técnicas de ingeniería de datos.",
-  },
-  {
-    imagen: "",
+    image:
+      "https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
     title: "Análisis deportivo",
     description:
       "Analizamos datos cuantitativos y cualitativos para proveer completos informes para la toma de decisiones deportivas, referentes a estrategias, preparación, entrenamientos y más.",
-  },
+    order: '1',
+    },
   {
-    imagen: "",
+    image:
+      "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     title: "Scouting de Jugadores",
     description:
       "Proveemos una búsqueda completa y exhaustiva de jugadores según características específicas, rendimiento, proyección a futuro, similaridad y más.",
-  },
+      order: '2',
+    },
   {
-    imagen: "",
+    image:
+      "https://cdn.pixabay.com/photo/2016/11/29/07/06/bleachers-1867992_960_720.jpg",
     title: "Asesoría y consultoría",
     description:
       "Asesoramos en la implementación de nuevas tecnologías para el deporte, guiando en el proceso y asegurando que tu inversión tenga el mejor retorno posible.",
-  },
+      order: '3',
+    },
 ];
 
 const ourValues = [
@@ -105,4 +105,4 @@ const profiles = [
   },
 ];
 
-export { services, ourValues, profiles };
+export { ourValues, profiles, carousel };

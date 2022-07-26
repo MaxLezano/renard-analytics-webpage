@@ -1,13 +1,14 @@
 import MainBanner from "../MainBanner/MainBanner";
 import { Link } from "react-router-dom";
 import Button from "../Button/Button";
-import Card from "../Card/Card";
-import { services } from '../../dataRenard';
+import CarouselMain from "./CarouselMain";
 
 const Main = () => {
   return (
     <div>
       <MainBanner />
+
+      <CarouselMain />
       <section>
         <img alt="grafica de algo" />
         <p>Trabajo en progreso</p>
@@ -30,21 +31,10 @@ const Main = () => {
             </tr>
           </tbody>
         </table>
-        <Link to="/about">
+        <Link reloadDocument to="/about">
           <Button description={"Ver Mas"} />
         </Link>
       </section>
-
-      <div>
-        <section>
-          <h2>Nuestros Servicios</h2>
-          <div>
-            {services.map((service) => (
-              <Card key={Math.random()} card={service} />
-            ))}
-          </div>
-        </section>
-      </div>
 
       <section>
         <p>Nuestra experiencia</p>
@@ -63,7 +53,7 @@ const Main = () => {
           o través de cualquiera de nuestras redes sociales.
         </p>
         <img alt="del vago a la par de una carta gigante" />
-        <Link to="/contact-us">
+        <Link reloadDocument to="/contact-us">
           <Button description={"Contactar"} />
         </Link>
       </section>
