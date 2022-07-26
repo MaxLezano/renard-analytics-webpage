@@ -14,7 +14,7 @@ import global_en from './assets/languages/en/global.json';
 
 i18next.init({
   interpolation: { escapeValue: false },
-  lng: navigator.language || navigator.userLanguage,
+  lng: 'es',
   resources: {
     es: {
       global: global_es

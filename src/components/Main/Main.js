@@ -3,8 +3,11 @@ import { Link } from "react-router-dom";
 import Button from "../Button/Button";
 import Card from "../Card/Card";
 import { services } from '../../dataRenard';
+import ContactCard from "../ContactCard/ContactCard";
+import { useTranslation } from 'react-i18next';
 
 const Main = () => {
+  const [t] = useTranslation('global');
   return (
     <div>
       <MainBanner />
@@ -63,9 +66,14 @@ const Main = () => {
           o través de cualquiera de nuestras redes sociales.
         </p>
         <img alt="del vago a la par de una carta gigante" />
-        <Link to="/contact-us">
-          <Button description={"Contactar"} />
-        </Link>
+        <Button
+            type="button"
+            description={t('navbar.hire')}
+            className={"btn btn-danger px-5 py-2 mx-5 my-2"}
+            dataBsToggle="modal"
+            dataBsTarget="#hireModal"
+          />
+          <ContactCard />
       </section>
     </div>
   );
