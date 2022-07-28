@@ -9,6 +9,7 @@ import "../Main/Main.css";
 
 const Main = () => {
   return (
+    
     <div>
       <MainBanner />
       <CarouselMain />
