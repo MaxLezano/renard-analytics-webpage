@@ -1,14 +1,15 @@
 import React from "react";
 import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
+import './Blog.css';
 
 const Blog = () => {
   return (
     <>
-      <Header />
+      <Header className='bgPages' />
       <div
         id="carouselExampleControls"
-        className="carousel slide mx-5"
+        className="carousel slide mx-5 contBlog"
         data-bs-ride="carousel"
       >
         <div className="carousel-inner">

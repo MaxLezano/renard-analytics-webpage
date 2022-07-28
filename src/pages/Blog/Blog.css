@@ -2,11 +2,12 @@
   width:100%;
   height:570px;
 }
-
 .card{
   width: 18rem;
 }
-
 .imgSize{
   height: 120px;
+}
+.contBlog{
+  padding-top: 10em;
 }
