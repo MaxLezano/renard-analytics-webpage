@@ -11,6 +11,7 @@ import "./Main.css";
 const Main = () => {
   // const [t] = useTranslation('global');
   return (
+    
     <div>
       <MainBanner />
       <CarouselMain />
