@@ -8,6 +8,7 @@ import reportWebVitals from "./reportWebVitals";
 import { I18nextProvider } from 'react-i18next';
 import i18next from 'i18next';
 import ContactUs from "./pages/ContactUs";
+import "./index.css"
 
 import global_es from './assets/languages/es/global.json';
 import global_en from './assets/languages/en/global.json';
@@ -30,7 +31,7 @@ root.render(
   <React.StrictMode>
     <I18nextProvider i18n={i18next}>
       <BrowserRouter>
-        <Routes>
+        <Routes >
           <Route path="/" element={<App />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/about" element={<About />} />
