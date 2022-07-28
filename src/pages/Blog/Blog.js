@@ -71,23 +71,9 @@ const Blog = () => {
             </span>
           </div>
           <div className="col-4 p-0 mb-5">
-            <div className="card">
-              <img
-                src="https://img.freepik.com/vector-gratis/apreton-manos-dos-socios-comerciales_74855-6685.jpg?w=1380&t=st=1658759811~exp=1658760411~hmac=d14bced16a2a1c890de01c70e014417e367e3b4973a4d3e36511b87760c7de0d"
-                className="card-img-top"
-                alt="..."
-              />
-              <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="/#" className="btn btn-primary">
-                  Go somewhere
-                </a>
-              </div>
-            </div>
+          <div>
+             
+          </div>
           </div>
         </div>
       </div>
