@@ -3,8 +3,6 @@ import Card from "../components/Card/Card";
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 import { ourValues, profiles } from "../dataRenard";
-import "./About.css"
-
 
 const About = () => {
   return (
