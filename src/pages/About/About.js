@@ -1,13 +1,13 @@
-import Button from "../components/Button/Button";
-import Card from "../components/Card/Card";
-import Header from "../components/Header/Header";
-import Footer from "../components/Footer/Footer";
-import { ourValues, profiles } from "../dataRenard";
+import Button from "../../components/Button/Button";
+import Card from "../../components/Card/Card";
+import Header from "../../components/Header/Header";
+import Footer from "../../components/Footer/Footer";
+import { ourValues, profiles } from "../../dataRenard";
 
 const About = () => {
   return (
     <>
-      <Header className={"bgPages"} />
+      <Header className='bgPages' />
       <div className="container-fluid text-center mg-5">
         <section className=" ">
           <img alt="referencia a big data" />

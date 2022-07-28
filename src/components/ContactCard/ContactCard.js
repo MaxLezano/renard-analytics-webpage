@@ -7,8 +7,8 @@ import { useTranslation } from 'react-i18next';
 function ContactCard() {
   const [t] = useTranslation('global');
   return (
-    <div className='modal fade contactCont' id="hireModal" data-bs-backdrop="static" aria-labelledby="hireModalLabel" aria-hidden="true">
-      <div className='modal-dialog modal-dialog-centered'>
+    <div className='modal fade contactCont' id="hireModal" aria-labelledby="hireModalLabel" aria-hidden="true">
+      <div className='modal-dialog'>
         <div className='modal-content shadow-lg border-0'>
           <div className='modal-header border-0 flex-column' id="hireModalLabel">
             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>

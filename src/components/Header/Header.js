@@ -1,9 +1,9 @@
 import Navbar from './Navbar/Navbar';
 import './Header.css';
 
-function Header(){
+function Header({className}){
   return(
-    <div className='header'>
+    <div className={className}>
       <Navbar />
     </div>
   );

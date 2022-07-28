@@ -6,7 +6,7 @@ import './Blog.css';
 const Blog = () => {
   return (
     <>
-      <Header />
+      <Header className='bgPages' />
       <div
         id="carouselExampleControls"
         className="carousel slide mx-5 contBlog"
