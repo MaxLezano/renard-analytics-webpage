@@ -1,14 +1,15 @@
-import Button from "../components/Button/Button";
-import Card from "../components/Card/Card";
-import Header from "../components/Header/Header";
-import Footer from "../components/Footer/Footer";
-import { ourValues, profiles } from '../dataRenard';
+import Button from "../../components/Button/Button";
+import Card from "../../components/Card/Card";
+import Header from "../../components/Header/Header";
+import Footer from "../../components/Footer/Footer";
+import { ourValues, profiles } from '../../dataRenard';
+import './About.css';
 
 const About = () => {
   return (
     <>
-      <Header className={'bgPages'}/>
-      <section>
+      <Header />
+      <section className="contAbout">
         <img alt="referencia a big data" />
         <p>ACERCA DE RENARD</p>
         <h3>Big Data deportivo a tu alcance</h3>

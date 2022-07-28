@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Button from "../../Button/Button";
-import logoImage from "../../../assets/images/logo-white.png";
-import "./Navbar.css";
+import logoImageWhite from "../../../assets/images/logo-white.png";
+import logoImageBlack from "../../../assets/images/logo-black.png";
 import { useTranslation } from 'react-i18next';
 import spainFlag from '../../../assets/images/spain-flag.png';
 import usaFlag from '../../../assets/images/usa-flag.png';
 import ContactCard from "../../ContactCard/ContactCard";
+import "./Navbar.css";
 
 function Navbar() {
   const [t, i18n] = useTranslation('global');
@@ -16,18 +17,20 @@ function Navbar() {
     if (window.location.pathname !== '/') {
       setIsHome(true);
     } else {
+      document.getElementById('navbarClassColor').className += ' navbar-dark';
       setIsHome(false);      
     }
   }, []);
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark">
+    <nav className="navbar navbar-expand-lg" id='navbarClassColor'>
       <div className="container-fluid py-3 col-lg-9">
-        <img
-          className="navbar-brand col-9 col-lg-2"
-          src={logoImage}
-          alt="logo"
-        />
+        {
+          isHome?
+            <img className="navbar-brand mx-0 py-0 col-9 col-lg-2" src={logoImageBlack} alt="logo"/>
+          :
+            <img className="navbar-brand mx-0 py-0 col-9 col-lg-2" src={logoImageWhite} alt="logo"/>
+        }
         <button
           className="navbar-toggler border-0"
           type="button"
@@ -41,13 +44,24 @@ function Navbar() {
         </button>
         <div className="collapse navbar-collapse py-2 bgBurguer" id="navbarNavAltMarkup">
           <div className='navbar-nav text-center'>
-            {isHome? <Link className="nav-link textNav" aria-current="page" to="/">{t('navbar.home')}</Link> : null}
-            <Link className="nav-link textNav" aria-current="page" to="/about">
-              {t('navbar.aboutUs')}
-            </Link>
-            <Link className="nav-link textNav" to="/blog">
-            {t('navbar.blog')}
-            </Link>
+            {
+              isHome?
+                <Link className="nav-link text-black textNav" aria-current="page" to="/">{t('navbar.home')}</Link>
+              :
+                null
+            }
+            {
+              isHome?
+                <Link className="nav-link text-black textNav" aria-current="page" to="/about">{t('navbar.aboutUs')}</Link>
+              :
+                <Link className="nav-link textNav" aria-current="page" to="/about">{t('navbar.aboutUs')}</Link>
+            }
+            {
+              isHome?
+                <Link className="nav-link text-black textNav" to="/blog">{t('navbar.blog')}</Link>
+              :
+                <Link className="nav-link textNav" to="/blog">{t('navbar.blog')}</Link>
+            }
           </div>
           <Button
             type="button"

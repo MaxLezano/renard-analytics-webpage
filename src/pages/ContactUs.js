@@ -6,7 +6,7 @@ import ContactCard from '../components/ContactCard/ContactCard';
 function ContactUs() {
   return (
     <>
-      <Header className={'bgPages'} />
+      <Header />
       <ContactCard />
       <Footer />
     </>

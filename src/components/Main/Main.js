@@ -5,15 +5,15 @@ import Card from "../Card/Card";
 import { services } from "../../dataRenard";
 import emailImg from "../../assets/images/email-illustration.svg";
 import technologiesImg from "../../assets/images/technologies.svg";
-import { useTranslation } from "react-i18next";
+// import { useTranslation } from "react-i18next";
 import "./Main.css";
 
 const Main = () => {
-  const [t] = useTranslation('global');
+  // const [t] = useTranslation('global');
   return (
-    <div>
-      <MainBanner />
-      <div className="container-fluid m-5 text-center">
+    <>
+      <MainBanner classNam={'bgPages'} />
+      <section className="container-fluid m-5 text-center">
         <section className="justify-content-center">
           <img alt="grafica de algo" />
           <p>Trabajo en progreso</p>
@@ -94,8 +94,8 @@ const Main = () => {
             </section>
           </div>
         </div>
-      </div>
-    </div>
+      </section>
+    </>
   );
 };
 

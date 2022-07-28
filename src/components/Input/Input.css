@@ -1,0 +1,41 @@
+.cont-input label{
+  display: block;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 8px 10px;
+  position: relative;
+  box-sizing: border-box;
+  margin-top: 1.2em;
+}
+.cont-input label:hover{
+  border: 1px solid red;
+  transition: 0.5s;
+}
+.cont-input label.focus{
+  border: 1px solid red;
+}
+.cont-input label span{
+  color: gray;
+  position: absolute;
+  top: 8px;
+  left: 10px;
+  transition: .25s;
+  margin-left: 5px;
+}
+.cont-input span.focus{
+  color: red;
+}
+.cont-input span.top{
+  left: 0;
+  top: -12px;
+  font-size: 12px;
+  padding: 0 5px;
+  background-color: white;
+}
+.cont-input label input{
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
