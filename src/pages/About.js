@@ -52,17 +52,19 @@ const About = () => {
           ))}
         </div>
       </section>
-      <section>
-        <p>Nuestro Equipo</p>
-        <h3>Quienes somos Renard</h3>
-        <p>
+      <section className="container-fluid">
+        <p className="text-white">Nuestro Equipo</p>
+        <h3 className="text-white">Quienes somos Renard</h3>
+        <p className="text-white">
           Conecta con nosotros a través de nuestras redes, estaremos atentos.
         </p>
       </section>
       <section>
         <div>
           {profiles.map((profile) => (
-            <Card key={Math.random()} card={profile} />
+            <Card
+              key={Math.random()}
+              card={profile} />
           ))}
         </div>
       </section>
