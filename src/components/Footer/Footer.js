@@ -5,9 +5,18 @@ import { useTranslation } from 'react-i18next';
 import Button from '../Button/Button';
 import { Link } from 'react-router-dom';
 import './Footer.css'
+import ContactCard from '../ContactCard/ContactCard';
 
 function Footer() {
   const [t] = useTranslation('global');
+
+  const openModal = () => {
+    document.documentElement.scrollTop = 0;
+    const idModal = document.getElementById('modalHire');
+    idModal.setAttribute('data-bs-toggle', 'modal');
+    idModal.setAttribute('data-bs-target', '#hireModal');
+    idModal.click();    
+  }
 
   return (
     <div className='container-fluid py-5 bgColor'>
@@ -24,12 +33,15 @@ function Footer() {
             <Button className='btn border-0 text-white px-3' description={t('footer.blog')} />
           </Link>
           <button
-            type='button'
             className='btn border-0 text-white px-3'
-            onClick={() => document.documentElement.scrollTop = 0}
+            id='modalHire'
             data-bs-toggle='collapse'
             data-bs-target='#navbarNavAltMarkup'
-          >{t('navbar.hire')}</button>
+            onClick={openModal}
+          >
+            {t('navbar.hire')}
+          </button>
+          <ContactCard />
         </div>
         <div className='d-flex justify-content-center mt-4'>
           <button className='btn text-white border-0 p-2 mx-3' href='/'><FacebookRounded /></button>

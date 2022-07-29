@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from '../Button/Button';
 import Input from '../Input/Input';
+import Textarea from '../Textarea/Textarea';
 import './ContactCard.css';
 import { useTranslation } from 'react-i18next';
 
@@ -20,7 +21,7 @@ function ContactCard() {
           <form className='modal-body pb-4 d-flex flex-column align-items-center'>
             <Input typeInput="text" classNameSpan='fst-italic' labelText={t('contactCard.placeHoldName')} />
             <Input typeInput="text" classNameSpan='fst-italic' labelText={t('contactCard.placeHoldSubject')} />
-            <Input typeInput="text" classNameSpan='fst-italic' labelText={t('contactCard.placeHoldBox')} />
+            <Textarea classNameTextarea='fst-italic' descriptionTextarea={t('contactCard.placeHoldBox')}/>
             <Button description={t('contactCard.buttonForm')} className={'btn btn-danger mt-5 py-2 col-4'} />
           </form>
         </div>
