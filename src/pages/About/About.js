@@ -94,9 +94,9 @@ const About = () => {
         </div>
 
         <div className="container py-5 d-flex justify-content-center">
-          <div className="row d-flex justify-content-center align-items-center col-xl-10">
+          <div className="row d-flex col-xl-10">
             {profiles.map((profile) => (
-              <div className="col-12 col-sm-6 col-lg-4 d-flex justify-content-center profile">
+              <div className="col-12 col-sm-6 col-lg-4 p-0 d-flex justify-content-center profile">
                 <div className="card bg-c profile">
                   <div className="card-body text-center">
                     <div className="mb-4">
