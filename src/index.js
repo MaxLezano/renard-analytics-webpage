@@ -31,7 +31,7 @@ root.render(
   <React.StrictMode>
     <I18nextProvider i18n={i18next}>
       <BrowserRouter>
-        <Routes>
+        <Routes >
           <Route path="/" element={<App />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/about" element={<About />} />
