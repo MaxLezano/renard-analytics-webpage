@@ -10,7 +10,7 @@ const Blog = () => {
   return (
     <>
       <div>
-        <Header />
+        <Header className='bgPages' />
       </div>
       <div className="container-fluid divCarousel">
         <div className="row d-flex justify-content-center">

@@ -1,0 +1,27 @@
+* {
+  color: rgb(255, 255, 255);
+}
+
+/* NUESTROS VALORES SECCION  */
+.bg-c {
+  background-color: rgba(26, 32, 44, 1);
+}
+.cardOurValues {
+  opacity: 0.7;
+}
+.cardOurValues:hover {
+  opacity: 0.9;
+  transform: scale(1.1);
+  box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.5);
+  transition: all 0.2s ease-in;
+}
+
+/*  -----------------  */
+
+/* PROFILE SECCION */
+
+.profile {
+  border: none;
+}
+
+/*  ----------------  */

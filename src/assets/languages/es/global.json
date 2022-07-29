@@ -17,5 +17,15 @@
     "titleBanner": "Acompañamos",
     "titleBannerPasion": "A la pasión",
     "ourProducts": "Nuestros Productos"
+  },
+  "contactCard": {
+    "hireSubtitle": "Contactar",
+    "titleContact1": "Todas sus consultas son",
+    "titleContact2": "bienvenidas!",
+    "descContact": "Estamos a su disposición por cualquier consulta via correo electrónico a renardanalytics@gmail.com o través de cualquiera de nuestras redes sociales.",
+    "placeHoldName": "Nombre y Apellido",
+    "placeHoldSubject": "Asunto",
+    "placeHoldBox": "Escriba su mensaje aquí",
+    "buttonForm": "Enviar"
   }
 }

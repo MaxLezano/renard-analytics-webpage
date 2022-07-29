@@ -17,5 +17,15 @@
     "titleBanner": "We accompany",
     "titleBannerPasion": "To the pasion",
     "ourProducts": "Our Products"
+  },
+  "contactCard": {
+    "hireSubtitle": "Contact us",
+    "titleContact1": "All your inquiries are",
+    "titleContact2": "welcome!",
+    "descContact": "We remain at your disposal for any questions via email to renardanalytics@gmail.com or through any of our social networks.",
+    "placeHoldName": "Name and Last Name",
+    "placeHoldSubject": "Subject",
+    "placeHoldBox": "Write your message here",
+    "buttonForm": "Send"
   }
 }
