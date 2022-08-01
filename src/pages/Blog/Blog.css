@@ -1,7 +1,3 @@
-.card{
-  width: 18rem;
-}
-
 .carouselBorder {
   border-top: 10px;
   border-left: 10px;
@@ -10,20 +6,4 @@
   border-color: rgba(255, 255, 255);
   border-style: solid;
   border-radius: 0.5em
-}
-
-.divCarousel{
-  height: 500px;
-  align-items: center;
-  justify-content: center;
-}
-.carousel-inner > .item > img {
-  width:100%;
-  height:570px;
-}
-.card{
-  width: 18rem;
-}
-.contBlog{
-  padding-top: 10em;
 }
