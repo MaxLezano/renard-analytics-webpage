@@ -1,3 +1,32 @@
+.card{
+  width: 18rem;
+}
+
+.carousel-inner {
+  border-top: 10px;
+  border-left: 10px;
+  border-right: 10px;
+  border-bottom: 10px;
+  border-color: rgb(255, 60, 0);
+  border-style: solid;
+  border-radius: 0.5em
+}
+
+.carousel-control-prev{
+  height: 20px;
+  top: 210px;
+}
+
+.carousel-control-next{
+  height: 20px;
+  top: 210px;
+}
+
+.divCarousel{
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+}
 .carousel-inner > .item > img {
   width:100%;
   height:570px;
