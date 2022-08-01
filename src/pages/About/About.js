@@ -28,7 +28,7 @@ const About = () => {
           <section className="col-12 col-lg-4 my-2">
             <img
               className="imgSize"
-              src="https://img.freepik.com/vector-gratis/big-data-center-rack-sala-servidores-proceso-ingenieria-trabajo-equipo-tecnologia-informatica-almacenamiento-nube_39422-1032.jpg?w=826&t=st=1659018505~exp=1659019105~hmac=f695c5b25f935a2ba18b984b41a1c9c129d38debe9757ec7a28c3127ee6a22c4"
+              src="https://i.postimg.cc/qRzG7mWS/about-image1.png"
               alt="big data reference"
             />
           </section>
@@ -39,7 +39,7 @@ const About = () => {
             <section className="col-12 col-lg-4 my-2">
               <img
                 className="imgSize"
-                src="https://img.freepik.com/vector-gratis/ilustracion-concepto-estadisticas-sitio_114360-1434.jpg?w=740&t=st=1659019273~exp=1659019873~hmac=1f506233fa394b053d2b58006685ef1359cc2872110769128a598c85ee1fe925"
+                src="https://i.postimg.cc/L5R44Wb3/about-image2.png"
                 alt="big data reference"
               />
             </section>

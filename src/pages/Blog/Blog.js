@@ -9,17 +9,15 @@ import "./Blog.css";
 const Blog = () => {
   return (
     <>
-      <div>
-        <Header className='bgPages' />
-      </div>
-      <div className="container-fluid divCarousel">
-        <div className="row d-flex justify-content-center">
+      <Header className="bgPages" />
+      <div className="container-fluid">
+        <div className="row d-flex justify-content-center align-items-center my-5">
           <div
             id="carouselExampleControls"
-            className="carousel slide mx-5 col-4 divCarousel"
+            className="carousel slide my-2 col-sm-4"
             data-bs-ride="carousel"
           >
-            <div className="carousel-inner mt-5">
+            <div className="carousel-inner carouselBorder">
               <div className="carousel-item active">
                 <img src={Image1} className="d-block w-100" alt="..." />
               </div>
@@ -30,34 +28,10 @@ const Blog = () => {
                 <img src={Image3} className="d-block w-100" alt="..." />
               </div>
             </div>
-            <button
-              className="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselExampleControls"
-              data-bs-slide="prev"
-            >
-              <span
-                className="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span className="visually-hidden">Previous</span>
-            </button>
-            <button
-              className="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselExampleControls"
-              data-bs-slide="next"
-            >
-              <span
-                className="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span className="visually-hidden">Next</span>
-            </button>
           </div>
-          <div className="col-4 mt-5 text-center">
-            <h1 className="text-white">Titulo</h1>
-            <span className="my-5 text-white justify-content-center">
+          <div className="col-sm-4 my-2 text-center align-items-center">
+            <h1 className="text-danger fw-bold">Titulo</h1>
+            <span className="text-white justify-content-center">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit,
               blanditiis dolor! Quam, ut. Eos corrupti id iste perferendis
               consectetur cupiditate pariatur totam veniam rerum? Deleniti quod
@@ -66,56 +40,51 @@ const Blog = () => {
               corrupti id iste perferendis consectetur cupiditate pariatur totam
               veniam rerum? Deleniti quod blanditiis neque porro. Quisquam.
             </span>
+            <br />
+            <button className="btn btn-danger mt-5">Go Somewhere</button>
           </div>
         </div>
       </div>
-      <div>
-      <div className="container-fluid text-center justify-content-center">
-        <div class="row d-flex">
-          <div class="col-sm-4">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Special title treatment</h5>
-                <p class="card-text">
-                  With supporting text below as a natural lead-in to additional
-                  content.
-                </p>
-                <a href="/#" class="btn btn-danger">
-                  Go somewhere
-                </a>
-              </div>
+      <div className="container-fluid text-center mb-5">
+        <div class="row d-flex justify-content-center">
+          <h3 className="text center text-white col-12">Cards</h3>
+          <div class="card mx-2 my-3 col-lg-3">
+            <div class="card-body">
+              <h5 class="card-title text-dark">Special title treatment</h5>
+              <p class="card-text text-dark">
+                With supporting text below as a natural lead-in to additional
+                content.
+              </p>
+              <a href="/#" class="btn btn-danger">
+                Go somewhere
+              </a>
             </div>
           </div>
-          <div class="col-sm-4">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Special title treatment</h5>
-                <p class="card-text">
-                  With supporting text below as a natural lead-in to additional
-                  content.
-                </p>
-                <a href="/#" class="btn btn-danger">
-                  Go somewhere
-                </a>
-              </div>
+          <div class="card mx-2 my-3 col-lg-3">
+            <div class="card-body">
+              <h5 class="card-title text-dark">Special title treatment</h5>
+              <p class="card-text text-dark">
+                With supporting text below as a natural lead-in to additional
+                content.
+              </p>
+              <a href="/#" class="btn btn-danger">
+                Go somewhere
+              </a>
             </div>
           </div>
-          <div class="col-sm-4">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Special title treatment</h5>
-                <p class="card-text">
-                  With supporting text below as a natural lead-in to additional
-                  content.
-                </p>
-                <a href="/#" class="btn btn-danger">
-                  Go somewhere
-                </a>
-              </div>
+          <div class="card mx-2 my-3 col-lg-3">
+            <div class="card-body">
+              <h5 class="card-title text-dark">Special title treatment</h5>
+              <p class="card-text text-dark">
+                With supporting text below as a natural lead-in to additional
+                content.
+              </p>
+              <a href="/#" class="btn btn-danger">
+                Go somewhere
+              </a>
             </div>
           </div>
         </div>
-      </div>
       </div>
       <Footer />
     </>
