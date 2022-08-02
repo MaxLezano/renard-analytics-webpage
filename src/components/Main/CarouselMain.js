@@ -1,8 +1,10 @@
 import React from "react";
 import { carousel } from "../../dataRenard";
+import { useTranslation } from 'react-i18next';
 import "./CarouselMain.css";
 
 const CarouselMain = () => {
+  const [t] = useTranslation('global');
   return (
     <div id="demo" className="carousel slide carouselMain" data-bs-ride="carousel">
       <div className="carousel-indicators">
@@ -28,11 +30,8 @@ const CarouselMain = () => {
             className="d-block w-100 carousel carouselMain"
           />
           <div className="carousel-caption">
-            <h3>Integración de datos</h3>
-            <p>
-              Integramos datos de distintas fuentes de forma rápida y eficaz
-              utilizando las más recientes técnicas de ingeniería de datos.
-            </p>
+            <h3>{t('carouselMain.titleCarousel')}</h3>
+            <p>{t('carouselMain.descriptionCarousel')}</p>
           </div>
         </div>
         <div>
@@ -40,8 +39,8 @@ const CarouselMain = () => {
             <div className="carousel-item">
               <img src={card.image} alt="" className="d-block w-100 carousel carouselMain" />
               <div className="carousel-caption">
-                <h3>{card.title}</h3>
-                <p>{card.description}</p>
+                <h3>{t(`carouselMain.${card.title}`)}</h3>
+                <p>{t(`carouselMain.${card.description}`)}</p>
               </div>
             </div>
           ))}

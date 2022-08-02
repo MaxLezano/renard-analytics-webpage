@@ -21,7 +21,7 @@ function ContactCard() {
           <form className='modal-body pb-4 d-flex flex-column align-items-center'>
             <Input typeInput="text" classNameSpan='fst-italic' labelText={t('contactCard.placeHoldName')} />
             <Input typeInput="text" classNameSpan='fst-italic' labelText={t('contactCard.placeHoldSubject')} />
-            <Textarea classNameTextarea='fst-italic' descriptionTextarea={t('contactCard.placeHoldBox')}/>
+            <Textarea classNameSpan='fst-italic' descriptionTextarea={t('contactCard.placeHoldBox')}/>
             <Button description={t('contactCard.buttonForm')} className={'btn btn-danger mt-5 py-2 col-4'} />
           </form>
         </div>

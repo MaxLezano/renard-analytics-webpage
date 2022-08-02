@@ -27,5 +27,67 @@
     "placeHoldSubject": "Asunto",
     "placeHoldBox": "Escriba su mensaje aquí",
     "buttonForm": "Enviar"
+  },
+  "carouselMain": {
+    "titleCarousel": "Integración de datos",
+    "descriptionCarousel": "Integramos datos de distintas fuentes de forma rápida y eficaz utilizando las más recientes técnicas de ingeniería de datos.",
+    "titleCarousel1": "Análisis deportivo",
+    "descriptionCarousel1": "Analizamos datos cuantitativos y cualitativos para proveer completos informes para la toma de decisiones deportivas, referentes a estrategias, preparación, entrenamientos y más.",
+    "titleCarousel2": "Exploración de jugadores",
+    "descriptionCarousel2": "Proveemos una búsqueda completa y exhaustiva de jugadores según características específicas, rendimiento, proyección a futuro, similaridad y más.",
+    "titleCarousel3": "Asesoría y consultoría",
+    "descriptionCarousel3": "Asesoramos en la implementación de nuevas tecnologías para el deporte, guiando en el proceso y asegurando que tu inversión tenga el mejor retorno posible."
+  },
+  "main": {
+    "work": {
+      "subtitle": "Trabajo en progreso",
+      "title": "Un equipo experimentado, juntos desde 2021.",
+      "description": "Somos un equipo de experimentados analistas e ingenieros de datos. Nos unimos hace poco, pero ya logramos mucho.",
+      "th1": "Soluciones completadas",
+      "th2": "En Desarrollo",
+      "button": "Ver Mas"
+    },
+    "experience": {
+      "subtitle": "Nuestra experiencia",
+      "title": "Un equipo de profesionales con experiencia.",
+      "description": "Contamos con un equipo de experimentados ingenieros al corriente con un gran abanico de tecnologías."
+    },
+    "contactUs": {
+      "subtitle": "Contactanos",
+      "title": "Todas sus consultas son bienvenidas!",
+      "description": "Estamos a su disposición por cualquier consulta via correo electrónico o través de cualquiera de nuestras redes sociales.",
+      "button": "Contactar"
+    }
+  },
+  "about": {
+    "aboutRenard": {
+      "subtitle": "ACERCA DE RENARD",
+      "title": "Big Data deportivo a tu alcance",
+      "description": "Somos un equipo de ingenieros de Argentina y Ecuador. Nos unimos con la misión de acercar tecnologías de análisis de datos de clase mundial a clubes deportivos de latinoamérica para que puedan maximizar su potencial.",
+      "button": "Nuestros productos"
+    },
+    "ourVision": {
+      "subtitle": "NUESTRA VISIÓN",
+      "title": "Ser referentes regionales en el ámbito del big data deportivo.",
+      "description": "El big data deportivo ya es una realidad en muchos países. Queremos ser referentes en acercar las últimas tecnologías en deporte a los clubes de la región para que compitan a nivel global.",
+      "button": "Contactar"
+    },
+    "ourValues": {
+      "subtitle": "NUESTROS VALORES",
+      "title": "Guían nuestro día a día.",
+      "description": "En renard creemos estos principios, y trabajamos a diario para poder cumplirlos.",
+      "card1title": "Empatía",
+      "card1desc": "Creemos que el éxito se encuentra en comprender a fondo las necesidades de nuestros clientes, por eso trabajamos juntos en encontrar la solución justa con el mejor retorno de inversión.",
+      "card2title": "Crecimiento conjunto",
+      "card2desc": "Creemos que nuestro crecimiento va de la mano del de nuestros clientes, los ayudamos a desarrollarse al tiempo que aprendemos de ellos constantemente.",
+      "card3title": "Transparencia",
+      "card3desc": "Porque cualquier relación fiable y duradera se basa en la confianza, nos jactamos de ser una empresa transparente interna y externamente.",
+      "card4title": "Mejora continua",
+      "card4desc": "La tecnología avanza día a día, y también lo hacemos nosotros. Trabajamos de manera continua para mantenernos al corriente de las últimas herramientas disponibles.",
+      "card5title": "Calidad a través de buenas prácticas",
+      "card5desc": "Un producto de calidad se consigue tomando las acciones correctas desde el primer día, por eso seguir buenas prácticas en nuestro trabajo es clave para nosotros.",
+      "card6title": "Trabajo en equipo",
+      "card6desc": "Lo mencionado solo se puede cumplir a través de la colaboración y la comunicación continua. Nuestros clientes son parte esencial de esto y buscamos que sean parte de nuestro equipo de trabajo."
+    }
   }
 }
