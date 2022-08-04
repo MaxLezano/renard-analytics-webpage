@@ -1,4 +1,4 @@
-.cont-input label{
+.cont-text-area label{
   display: block;
   border-bottom: 2px solid rgb(150, 150, 150);
   padding: 8px 10px;
@@ -8,14 +8,14 @@
   background-color: rgb(240, 240, 240);
   border-radius: 5px;
 }
-.cont-input label:hover{
+.cont-text-area label:hover{
   border-bottom: 2px solid red;
   transition: 0.5s;
 }
-.cont-input label.focus{
+.cont-text-area label.focus{
   border-bottom: 2px solid red;
 }
-.cont-input label span{
+.cont-text-area label span{
   color: rgb(150, 150, 150);
   position: absolute;
   top: 8px;
@@ -23,16 +23,16 @@
   transition: .25s;
   margin-left: 5px;
 }
-.cont-input span.focus{
+.cont-text-area span.focus{
   color: red;
 }
-.cont-input span.top{
+.cont-text-area span.top{
   left: 0;
   top: -18px;
   font-size: 12px;
   padding: 0 5px;
 }
-.cont-input label input{
+.cont-text-area label textarea{
   color: black;
   display: block;
   width: 100%;

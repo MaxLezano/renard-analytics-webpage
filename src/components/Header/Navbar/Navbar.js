@@ -23,15 +23,15 @@ function Navbar() {
   }, []);
 
   return (
-    <nav className='navbar navbar-expand-lg' id='navbarClassColor'>
+    <nav className='navbar navbar-expand-lg py-0' id='navbarClassColor'>
       <div className='container-fluid py-3 col-lg-10'>
         {
           isHome?
-            <Link reloadDocument to='/' className='navbar-brand mx-0 py-0 px-2 col-9 col-sm-6 col-md-4 col-lg-3'>
+            <Link reloadDocument to='/' className='navbar-brand mx-0 py-0 px-2 col-9 col-sm-6 col-md-4 col-lg-2'>
               <img className='col-12' src={logoImageBlack} alt='logo'/>
             </Link>
           :
-            <Link reloadDocument to='/' className='navbar-brand mx-0 py-0 px-2 col-9 col-sm-6 col-md-4 col-lg-3'>
+            <Link reloadDocument to='/' className='navbar-brand mx-0 py-0 px-2 col-9 col-sm-6 col-md-4 col-lg-2'>
               <img className='col-12' src={logoImageWhite} alt='logo'/>
             </Link>
         }

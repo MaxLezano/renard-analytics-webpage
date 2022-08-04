@@ -4,25 +4,22 @@ const carousel = [
   {
     image:
       "https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
-    title: "Análisis deportivo",
-    description:
-      "Analizamos datos cuantitativos y cualitativos para proveer completos informes para la toma de decisiones deportivas, referentes a estrategias, preparación, entrenamientos y más.",
+    title: "titleCarousel1",
+    description: "descriptionCarousel1",
     order: "1",
   },
   {
     image:
       "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-    title: "Scouting de Jugadores",
-    description:
-      "Proveemos una búsqueda completa y exhaustiva de jugadores según características específicas, rendimiento, proyección a futuro, similaridad y más.",
+    title: "titleCarousel2",
+    description: "descriptionCarousel2",
     order: "2",
   },
   {
     image:
       "https://cdn.pixabay.com/photo/2016/11/29/07/06/bleachers-1867992_960_720.jpg",
-    title: "Asesoría y consultoría",
-    description:
-      "Asesoramos en la implementación de nuevas tecnologías para el deporte, guiando en el proceso y asegurando que tu inversión tenga el mejor retorno posible.",
+    title: "titleCarousel3",
+    description: "descriptionCarousel3",
     order: "3",
   },
 ];
@@ -30,39 +27,33 @@ const carousel = [
 const ourValues = [
   {
     image: ICONS.simpleIcon,
-    title: "Empatía",
-    description:
-      "Creemos que el éxito se encuentra en comprender a fondo las necesidades de nuestros clientes, por eso trabajamos juntos en encontrar la solución justa con el mejor retorno de inversión.",
+    title: "card1title",
+    description: "card1desc",
   },
   {
     image: ICONS.reliableIcon,
-    title: "Crecimiento conjunto",
-    description:
-      "Creemos que nuestro crecimiento va de la mano del de nuestros clientes, los ayudamos a desarrollarse al tiempo que aprendemos de ellos constantemente.",
+    title: "card2title",
+    description: "card2desc",
   },
   {
     image: ICONS.shieldIcon,
-    title: "Transparencia",
-    description:
-      "Porque cualquier relación fiable y duradera se basa en la confianza, nos jactamos de ser una empresa transparente interna y externamente.",
+    title: "card3title",
+    description: "card3desc",
   },
   {
     image: ICONS.customizeIcon,
-    title: "Mejora continua",
-    description:
-      "La tecnología avanza día a día, y también lo hacemos nosotros. Trabajamos de manera continua para mantenernos al corriente de las últimas herramientas disponibles.",
+    title: "card4title",
+    description: "card4desc",
   },
   {
     image: ICONS.fastIcon,
-    title: "Calidad a través de buenas prácticas",
-    description:
-      "Un producto de calidad se consigue tomando las acciones correctas desde el primer día, por eso seguir buenas prácticas en nuestro trabajo es clave para nosotros.",
+    title: "card5title",
+    description: "card5desc",
   },
   {
     image: ICONS.supportIcon,
-    title: "Trabajo en equipo",
-    description:
-      "Lo mencionado solo se puede cumplir a través de la colaboración y la comunicación continua. Nuestros clientes son parte esencial de esto y buscamos que sean parte de nuestro equipo de trabajo.",
+    title: "card6title",
+    description: "card6desc",
   },
 ];
 

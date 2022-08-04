@@ -27,5 +27,67 @@
     "placeHoldSubject": "Subject",
     "placeHoldBox": "Write your message here",
     "buttonForm": "Send"
+  },
+  "carouselMain": {
+    "titleCarousel": "Data integration",
+    "descriptionCarousel": "We integrate data from different sources quickly and efficiently using the latest data engineering techniques.",
+    "titleCarousel1": "Sports analysis",
+    "descriptionCarousel1": "We analyze quantitative and qualitative data to provide complete reports for sports decision making, regarding strategies, preparation, training and more.",
+    "titleCarousel2": "Player scouting",
+    "descriptionCarousel2": "We provide a complete and exhaustive search for players based on specific characteristics, performance, future projection, similarity and more.",
+    "titleCarousel3": "Advice and consultancy",
+    "descriptionCarousel3": "We advise on the implementation of new technologies for sports, guiding the process and ensuring that your investment has the best possible return."
+  },
+  "main": {
+    "work": {
+      "subtitle": "Work in progress",
+      "title": "An experienced team, together since 2021.",
+      "description": "We are a team of experienced data analysts and engineers. We only joined recently, but we've already achieved a lot.",
+      "th1": "Completed solutions",
+      "th2": "In development",
+      "button": "See more"
+    },
+    "experience": {
+      "subtitle": "Our experience",
+      "title": "A team of experienced professionals.",
+      "description": "We have a team of experienced engineers up to date with a wide range of technologies."
+    },
+    "contactUs": {
+      "subtitle": "Contact us",
+      "title": "All your inquiries are welcome!",
+      "description": "We are at your disposal for any questions via email or through any of our social networks.",
+      "button": "Contact"
+    }
+  },
+  "about": {
+    "aboutRenard": {
+      "subtitle": "ABOUT RENARD",
+      "title": "Sports Big Data at your fingertips",
+      "description": "We are a team of engineers from Argentina and Ecuador. We joined with the mission of bringing world-class data analysis technologies to sports clubs in Latin America so that they can maximize their potential.",
+      "button": "Our products"
+    },
+    "ourVision": {
+      "subtitle": "OUR VISION",
+      "title": "To be a regional benchmark in the field of sports big data.",
+      "description": "Sports big data is already a reality in many countries. We want to be a benchmark in bringing the latest technologies in sports to the clubs of the region so that they can compete globally.",
+      "button": "Contact"
+    },
+    "ourValues": {
+      "subtitle": "OUR VALUES",
+      "title": "They guide our day to day.",
+      "description": "At renard we believe in these principles, and we work daily to be able to comply with them.",
+      "card1title": "Empathy",
+      "card1desc": "We believe that success lies in thoroughly understanding the needs of our clients, which is why we work together to find the right solution with the best return on investment.",
+      "card2title": "Joint growth",
+      "card2desc": "We believe that our growth goes hand in hand with that of our clients, we help them to develop while constantly learning from them.",
+      "card3title": "Transparency",
+      "card3desc": "Because any reliable and lasting relationship is based on trust, we pride ourselves on being an internally and externally transparent company.",
+      "card4title": "Continuous improvement",
+      "card4desc": "Technology advances day by day, and so do we. We work continuously to stay abreast of the latest tools available.",
+      "card5title": "Quality through good practices",
+      "card5desc": "A quality product is achieved by taking the correct actions from day one, which is why following good practices in our work is key for us.",
+      "card6title": "Teamwork",
+      "card6desc": "The above can only be accomplished through collaboration and ongoing communication. Our clients are an essential part of this and we want them to be part of our work team."
+    }
   }
 }

@@ -2,26 +2,23 @@ import Button from "../../components/Button/Button";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import { ourValues, profiles } from "../../dataRenard";
+import { useTranslation } from "react-i18next";
 import "../../components/Main/Main.css";
 import "./About.css"
 
 const About = () => {
+  const [t] = useTranslation('global');
   return (
     <>
       <Header className={"bgPages"} />
       <div className="container-fluid text-center mt-5">
         <div className="row d-flex justify-content-center">
           <section className="col-12 col-lg-4 my-2 justify-content-center">
-            <p className="mb-0 parrafoStyle">ACERCA DE RENARD</p>
-            <h3 className="h3Style">Big Data deportivo a tu alcance</h3>
-            <p className="text-white">
-              Somos un equipo de ingenieros de Argentina y Ecuador. Nos unimos
-              con la misión de acercar tecnologías de análisis de datos de clase
-              mundial a clubes deportivos de latinoamérica para que puedan
-              maximizar su potencial.
-            </p>
+            <p className="mb-0 parrafoStyle">{t('about.aboutRenard.subtitle')}</p>
+            <h3 className="h3Style">{t('about.aboutRenard.title')}</h3>
+            <p className="text-white">{t('about.aboutRenard.description')}</p>
             <Button
-              description={"Nuestros productos"}
+              description={t('about.aboutRenard.button')}
               className={"btn btn-danger my-3 px-5"}
             />
           </section>
@@ -44,18 +41,11 @@ const About = () => {
               />
             </section>
             <section className="col-12 col-lg-4 my-2">
-              <p className="mb-0 parrafoStyle">NUESTRA VISIÓN</p>
-              <h3 className="h3Style">
-                Ser referentes regionales en el ámbito del big data deportivo.
-              </h3>
-              <p className="text-white">
-                El big data deportivo ya es una realidad en muchos países.
-                Queremos ser referentes en acercar las últimas tecnologías en
-                deporte a los clubes de la región para que compitan a nivel
-                global.
-              </p>
+              <p className="mb-0 parrafoStyle">{t('about.ourVision.subtitle')}</p>
+              <h3 className="h3Style">{t('about.ourVision.title')}</h3>
+              <p className="text-white">{t('about.ourVision.description')}</p>
               <Button
-                description={"Contactar"}
+                description={t('about.ourVision.button')}
                 className={"btn btn-danger my-3 px-5"}
               />
             </section>
@@ -63,19 +53,16 @@ const About = () => {
         </div>
 
         <section className="container-fluid text-center mt-5">
-          <p className="mb-0 parrafoStyle">NUESTROS VALORES</p>
-          <h3 className="h3Style">Guían nuestro día a día.</h3>
-          <p className="text-white">
-            En renard creemos estos principios, y trabajamos a diario para poder
-            cumplirlos.
-          </p>
+          <p className="mb-0 parrafoStyle">{t('about.ourValues.subtitle')}</p>
+          <h3 className="h3Style">{t('about.ourValues.title')}</h3>
+          <p className="text-white">{t('about.ourValues.description')}</p>
         </section>
 
         <div className="container-fluid col-12 col-md-10 col-lg-12 col-xl-10 px-0">
           <div className="row g-4">
             {ourValues.map((ourValue) => (
               <div className="col-12 col-md-6 col-lg-4 px-0 bg-c d-flex justify-content-center">
-                <div className="card border-0 rounded-4 text-center bg-c cardOurValues">
+                <div className="card border-0 rounded-4 text-center bg-c">
                   <img
                     src={ourValue.image}
                     className="align-self-center col-2 pt-3"
@@ -83,9 +70,9 @@ const About = () => {
                   />
                   <div className="card-body">
                     <h5 className="card-title parrafoStyle">
-                      {ourValue.title}
+                      {t(`about.ourValues.${ourValue.title}`)}
                     </h5>
-                    <p className="card-text">{ourValue.description}</p>
+                    <p className="card-text">{t(`about.ourValues.${ourValue.description}`)}</p>
                   </div>
                 </div>
               </div>
@@ -94,9 +81,9 @@ const About = () => {
         </div>
 
         <div className="container py-5 d-flex justify-content-center">
-          <div className="row d-flex justify-content-center align-items-center col-xl-10">
+          <div className="row d-flex col-xl-10">
             {profiles.map((profile) => (
-              <div className="col-12 col-sm-6 col-lg-4 d-flex justify-content-center profile">
+              <div className="col-12 col-sm-6 col-lg-4 p-0 d-flex justify-content-center profile">
                 <div className="card bg-c profile">
                   <div className="card-body text-center">
                     <div className="mb-4">
