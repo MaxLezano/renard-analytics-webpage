@@ -27,11 +27,11 @@ function Navbar() {
       <div className='container-fluid py-3 col-lg-10'>
         {
           isHome?
-            <Link reloadDocument to='/' className='navbar-brand mx-0 py-0 px-2 col-9 col-sm-6 col-md-4 col-lg-2'>
+            <Link to='/' className='navbar-brand mx-0 py-0 px-2 col-9 col-sm-6 col-md-4 col-lg-2'>
               <img className='col-12' src={logoImageBlack} alt='logo'/>
             </Link>
           :
-            <Link reloadDocument to='/' className='navbar-brand mx-0 py-0 px-2 col-9 col-sm-6 col-md-4 col-lg-2'>
+            <Link to='/' className='navbar-brand mx-0 py-0 px-2 col-9 col-sm-6 col-md-4 col-lg-2'>
               <img className='col-12' src={logoImageWhite} alt='logo'/>
             </Link>
         }
@@ -50,21 +50,21 @@ function Navbar() {
           <div className='navbar-nav text-center'>
             {
               isHome?
-                <Link reloadDocument className='nav-link text-black textNav' aria-current='page' to='/'>{t('navbar.home')}</Link>
+                <Link className='nav-link text-black textNav' aria-current='page' to='/'>{t('navbar.home')}</Link>
               :
                 null
             }
             {
               isHome?
-                <Link reloadDocument className='nav-link text-black textNav' aria-current='page' to='/about'>{t('navbar.aboutUs')}</Link>
+                <Link className='nav-link text-black textNav' aria-current='page' to='/about'>{t('navbar.aboutUs')}</Link>
               :
-                <Link reloadDocument className='nav-link textNav' aria-current='page' to='/about'>{t('navbar.aboutUs')}</Link>
+                <Link className='nav-link textNav' aria-current='page' to='/about'>{t('navbar.aboutUs')}</Link>
             }
             {
               isHome?
-                <Link reloadDocument className='nav-link text-black textNav' to='/blog'>{t('navbar.blog')}</Link>
+                <Link className='nav-link text-black textNav' to='/blog'>{t('navbar.blog')}</Link>
               :
-                <Link reloadDocument className='nav-link textNav' to='/blog'>{t('navbar.blog')}</Link>
+                <Link className='nav-link textNav' to='/blog'>{t('navbar.blog')}</Link>
             }
           </div>
           <Button
@@ -81,10 +81,10 @@ function Navbar() {
             </button>
             <div className='dropdown-menu text-center mt-2 boxLang'>
               <li className='d-flex justify-content-center'>
-                <img src={spainFlag} className='btn dropdown-item flagLang' alt='spain flag' onClick={() => i18n.changeLanguage('es')} />
+                <img src={spainFlag} className='btn dropdown-item flagLang' alt='spain flag' onClick={() => {i18n.changeLanguage('es')}} />
               </li>
               <li className='d-flex justify-content-center'>
-                <img src={usaFlag} className='btn dropdown-item flagLang' alt='usa flag' onClick={() => i18n.changeLanguage('en')} />
+                <img src={usaFlag} className='btn dropdown-item flagLang' alt='usa flag' onClick={() => {i18n.changeLanguage('en')}} />
               </li>
             </div>
           </div>

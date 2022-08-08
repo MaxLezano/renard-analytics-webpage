@@ -17,7 +17,12 @@ function MainBanner() {
 							<h1 className='px-3 titleBannerPasion'>{t('mainBanner.titleBannerPasion')}</h1>
 						</div>
 						<div>
-							<Button description={t('mainBanner.ourProducts')} className={"btn btn-light mt-5 fontButton"} />
+							<Button 
+								description={t('mainBanner.ourProducts')} 
+								className={"btn btn-light mt-5 fontButton"}
+								dataBsToggle='modal'
+            		dataBsTarget='#hireModal'
+							/>
 						</div>
 					</div>
 				</div>

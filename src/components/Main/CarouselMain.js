@@ -1,6 +1,7 @@
 import React from "react";
 import { carousel } from "../../dataRenard";
 import { useTranslation } from 'react-i18next';
+import uniqid from 'uniqid';
 import "./CarouselMain.css";
 
 const CarouselMain = () => {
@@ -16,6 +17,7 @@ const CarouselMain = () => {
         ></button>
         {carousel.map((card) => (
           <button
+            key={uniqid()}
             type="button"
             data-bs-target="#demo"
             data-bs-slide-to={card.order}
@@ -36,7 +38,7 @@ const CarouselMain = () => {
         </div>
         <div>
           {carousel.map((card) => (
-            <div className="carousel-item">
+            <div className="carousel-item" key={uniqid()}>
               <img src={card.image} alt="" className="d-block w-100 carousel carouselMain" />
               <div className="carousel-caption">
                 <h3>{t(`carouselMain.${card.title}`)}</h3>

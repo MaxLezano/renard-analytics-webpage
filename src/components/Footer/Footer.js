@@ -9,13 +9,9 @@ import ContactCard from '../ContactCard/ContactCard';
 
 function Footer() {
   const [t] = useTranslation('global');
-
-  const openModal = () => {
+  
+  const goToTop = () => {
     document.documentElement.scrollTop = 0;
-    const idModal = document.getElementById('modalHire');
-    idModal.setAttribute('data-bs-toggle', 'modal');
-    idModal.setAttribute('data-bs-target', '#hireModal');
-    idModal.click();    
   }
 
   return (
@@ -23,24 +19,22 @@ function Footer() {
       <div className='row d-flex justify-content-center'>
         <img className='p-3 col-9 col-sm-6 col-md-4 col-lg-2' src={logoImage} alt='logo' />
         <div className='d-flex justify-content-center p-2 mt-4'>
-          <Link reloadDocument to='/'>
+          <Link to='/' onClick={goToTop}>
             <Button className='btn border-0 text-white px-3' description={t('footer.home')} />
           </Link>
-          <Link reloadDocument to='/about'>
+          <Link to='/about' onClick={goToTop}>
             <Button className='btn border-0 text-white px-3' description={t('footer.about')} />
           </Link>
-          <Link reloadDocument to='/blog'>
+          <Link to='/blog' onClick={goToTop}>
             <Button className='btn border-0 text-white px-3' description={t('footer.blog')} />
           </Link>
-          <button
-            className='btn border-0 text-white px-3'
-            id='modalHire'
-            data-bs-toggle='collapse'
-            data-bs-target='#navbarNavAltMarkup'
-            onClick={openModal}
-          >
-            {t('navbar.hire')}
-          </button>
+          <Button
+            type='button'
+            description={t('navbar.hire')}
+            className={'btn border-0 text-white px-3'}
+            dataBsToggle='modal'
+            dataBsTarget='#hireModal'
+          />
           <ContactCard />
         </div>
         <div className='d-flex justify-content-center mt-4'>

@@ -10,8 +10,12 @@ import "./Main.css";
 
 const Main = () => {
   const [t] = useTranslation('global');
+
+  const goToTop = () => {
+    document.documentElement.scrollTop = 0;
+  }
+
   return (
-    
     <div>
       <MainBanner />
       <CarouselMain />
@@ -35,7 +39,7 @@ const Main = () => {
                 </tr>
               </tbody>
             </table>
-            <Link reloadDocument to="/about">
+            <Link to="/about" onClick={goToTop}>
               <Button className={"btn btn-danger"} description={t('main.work.button')} />
             </Link>
           </section>
@@ -67,12 +71,13 @@ const Main = () => {
               <p className="parrafoStyle">{t('main.contactUs.subtitle')}</p>
               <h3 className="h3Style">{t('main.contactUs.title')}</h3>
               <p className="text-white">{t('main.contactUs.description')}</p>
-              <Link reloadDocument to="/contact-us">
-                <Button
-                  className={"btn btn-danger"}
-                  description={t('main.contactUs.button')}
-                />
-              </Link>
+              <Button
+                type='button'
+                description={t('main.contactUs.button')}
+                className={'btn btn-danger'}
+                dataBsToggle='modal'
+                dataBsTarget='#hireModal'
+              />
             </section>
             <section className="col-12 col-md-5 col-lg-4">
               <img className="imgSize" src={emailImg} alt="email" />
