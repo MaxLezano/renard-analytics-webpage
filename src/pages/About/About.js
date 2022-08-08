@@ -8,6 +8,7 @@ import "./About.css"
 
 const About = () => {
   const [t] = useTranslation('global');
+
   return (
     <>
       <Header className={"bgPages"} />
@@ -45,8 +46,11 @@ const About = () => {
               <h3 className="h3Style">{t('about.ourVision.title')}</h3>
               <p className="text-white">{t('about.ourVision.description')}</p>
               <Button
+                type='button'
                 description={t('about.ourVision.button')}
                 className={"btn btn-danger my-3 px-5"}
+                dataBsToggle='modal'
+                dataBsTarget='#hireModal'
               />
             </section>
           </div>
