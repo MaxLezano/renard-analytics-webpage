@@ -1,56 +1,138 @@
-.bgImage{
-  background-image: url(https://i.ibb.co/t2vxJ71/photo-1508098682722-e99c43a406b2.jpg);
+.main-banner {
+  background-image: url('../../assets/images/main-banner.webp');
   background-position: center;
   background-size: cover;
   height: 100vh;
   position: relative;
+  overflow: hidden;
 }
-.bgBlue{
-  background-color: rgba(0, 89, 255, 0.2);
-  height: 100%;
-}
-.contBanner{
+.cont-banner {
   color: white;
   padding-top: 17em;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.subtitleBanner{
+.subtitle-banner {
   padding-left: 1rem;
 }
-.titleBanner, .titleBannerPasion{
+.title-banner, .title-banner-pasion {
   font-size: 4em;
-  font-family:sans-serif;
   font-weight: 900;
   padding-left: 1rem;
   letter-spacing: -0.05em;
 }
-.titleBannerPasion, .fontButton{
-  color: rgb(255, 72, 0);
-}
-.boxTitle{
-  background-color: white;
+.title-banner-pasion {
+  background-image: linear-gradient(to right, #004CBF, #F14124);
   display: inline-block;
   --tw-skew-x: -12deg;
   transform: skewX(var(--tw-skew-x));
 }
-.fontButton{
-  font-weight: 900;
-  margin-left: 1.5em;
-  padding: 0.8em;
-}
 
 @media (max-width: 600px) {
-  .titles{
+  .main-banner {
+    background-image: url('../../assets/images/main-banner-phone.webp');
+  }
+  .cont-banner{
     text-align: center;
   }
-  .titleBanner, .titleBannerPasion{
+  .title-banner, .title-banner-pasion{
     font-size: 1.8em;
   }
-  .subtitleBanner{
+  .subtitle-banner{
     padding-left: 0;
   }
-  .fontButton{
-    margin-left: 0;
-    padding: 0.5em;
+}
+.btn-our-products {
+  position: relative;
+  display: inline-block;
+  margin-top: 2em;
+  padding: 1.5em;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  overflow: hidden;
+  font-size: 0.8em;
+}
+.btn-our-products:hover {
+  background: white;
+  color: rgb(70, 70, 70);
+  border-radius: 15px;
+}
+.btn-our-products:hover span:nth-child(1),
+.btn-our-products:hover span:nth-child(2),
+.btn-our-products:hover span:nth-child(3),
+.btn-our-products:hover span:nth-child(4) {
+  background: white;
+}
+.btn-our-products span {
+  position: absolute;
+  display: block;
+  background: linear-gradient(90deg, transparent, white);
+  animation: animate1 2s linear infinite;
+}
+@keyframes animate1 {
+  0% {
+    left: -100%;
+  }
+  50%, 100% {
+    left: 100%;
+  }
+}
+.btn-our-products span:nth-child(1) {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, white);
+  animation: animate1 2s linear infinite;
+}
+.btn-our-products span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, white);
+  animation: animate2 2s linear infinite;
+  animation-delay: 0.50s;
+}
+@keyframes animate2 {
+  0% {
+    top: -100%;
+  }
+  50%, 100% {
+    top: 100%;
+  }
+}
+.btn-our-products span:nth-child(3) {
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, white);
+  animation: animate3 2s linear infinite;
+  animation-delay: 1s;
+}
+@keyframes animate3 {
+  0% {
+    right: -100%;
+  }
+  50%, 100% {
+    right: 100%;
+  }
+}
+.btn-our-products span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, white);
+  animation: animate4 2s linear infinite;
+  animation-delay: 1.50s;
+}
+@keyframes animate4 {
+  0% {
+    bottom: -100%;
+  }
+  50%, 100% {
+    bottom: 100%;
   }
 }

@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
-import './Input.css';
+import './input.css';
 
-function Input({ classNameInput, classNameSpan, nameInput, typeInput, idInput, labelText }) {
+function Input({ classNameInput, classNameSpan, nameInput, typeInput, idInput, labelText, onChange, inputValue }) {
   
   useEffect(() => {
     const inputSelector = document.querySelectorAll('#inputSelector');
@@ -24,10 +24,10 @@ function Input({ classNameInput, classNameSpan, nameInput, typeInput, idInput, l
   }, [classNameSpan]);
 
   return (
-    <div className='cont-input col-10'>
+    <div className='cont-input col-10 pt-1'>
       <label>
         <span id='inputSelector' className={`${classNameSpan}`}>{labelText}</span>
-        <input className={classNameInput} type={typeInput} name={nameInput} id={idInput} />
+        <input className={classNameInput} type={typeInput} name={nameInput} id={idInput} onChange={onChange} value={inputValue} />
       </label>
     </div>
   );

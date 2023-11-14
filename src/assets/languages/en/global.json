@@ -1,16 +1,14 @@
 {
   "footer": {
     "home": "Home",
-    "about": "About",
-    "hire": "Hire",
-    "blog": "Blog"
+    "contact": "Contact us",
+    "teamwork": "Our work team",
+    "copyright": "Copyright by Renard 2022 ©."
   },
-  "navbar": {
+  "header": {
     "home": "Home",
-    "aboutUs": "About us?",
-    "blog": "Blog",
-    "hire": "Hire",
-    "language": "Language"
+    "contact": "Contact",
+    "login": "Login"
   },
   "mainBanner": {
     "subtitleBanner": "We are building the sport's future.",
@@ -20,74 +18,108 @@
   },
   "contactCard": {
     "hireSubtitle": "Contact us",
-    "titleContact1": "All your inquiries are",
-    "titleContact2": "welcome!",
-    "descContact": "We remain at your disposal for any questions via email to renardanalytics@gmail.com or through any of our social networks.",
+    "titleContactBlue": "All your inquiries",
+    "titleContactOrange": "are welcome!",
+    "descContactStart": "We remain at your disposal for any questions via email to ",
+    "renardMail": "renardanalytics@gmail.com ",
+    "descContactEnd": "or through any of our social networks.",
     "placeHoldName": "Name and Last Name",
     "placeHoldSubject": "Subject",
     "placeHoldBox": "Write your message here",
     "buttonForm": "Send"
   },
-  "carouselMain": {
-    "titleCarousel": "Data integration",
-    "descriptionCarousel": "We integrate data from different sources quickly and efficiently using the latest data engineering techniques.",
-    "titleCarousel1": "Sports analysis",
-    "descriptionCarousel1": "We analyze quantitative and qualitative data to provide complete reports for sports decision making, regarding strategies, preparation, training and more.",
-    "titleCarousel2": "Player scouting",
-    "descriptionCarousel2": "We provide a complete and exhaustive search for players based on specific characteristics, performance, future projection, similarity and more.",
-    "titleCarousel3": "Advice and consultancy",
-    "descriptionCarousel3": "We advise on the implementation of new technologies for sports, guiding the process and ensuring that your investment has the best possible return."
-  },
-  "main": {
-    "work": {
-      "subtitle": "Work in progress",
-      "title": "An experienced team, together since 2021.",
-      "description": "We are a team of experienced data analysts and engineers. We only joined recently, but we've already achieved a lot.",
-      "th1": "Completed solutions",
-      "th2": "In development",
-      "button": "See more"
-    },
-    "experience": {
-      "subtitle": "Our experience",
-      "title": "A team of experienced professionals.",
-      "description": "We have a team of experienced engineers up to date with a wide range of technologies."
-    },
-    "contactUs": {
-      "subtitle": "Contact us",
-      "title": "All your inquiries are welcome!",
-      "description": "We are at your disposal for any questions via email or through any of our social networks.",
-      "button": "Contact"
-    }
-  },
   "about": {
-    "aboutRenard": {
-      "subtitle": "ABOUT RENARD",
-      "title": "Sports Big Data at your fingertips",
-      "description": "We are a team of engineers from Argentina and Ecuador. We joined with the mission of bringing world-class data analysis technologies to sports clubs in Latin America so that they can maximize their potential.",
-      "button": "Our products"
-    },
-    "ourVision": {
-      "subtitle": "OUR VISION",
-      "title": "To be a regional benchmark in the field of sports big data.",
-      "description": "Sports big data is already a reality in many countries. We want to be a benchmark in bringing the latest technologies in sports to the clubs of the region so that they can compete globally.",
-      "button": "Contact"
-    },
-    "ourValues": {
-      "subtitle": "OUR VALUES",
-      "title": "They guide our day to day.",
-      "description": "At renard we believe in these principles, and we work daily to be able to comply with them.",
-      "card1title": "Empathy",
-      "card1desc": "We believe that success lies in thoroughly understanding the needs of our clients, which is why we work together to find the right solution with the best return on investment.",
-      "card2title": "Joint growth",
-      "card2desc": "We believe that our growth goes hand in hand with that of our clients, we help them to develop while constantly learning from them.",
-      "card3title": "Transparency",
-      "card3desc": "Because any reliable and lasting relationship is based on trust, we pride ourselves on being an internally and externally transparent company.",
-      "card4title": "Continuous improvement",
-      "card4desc": "Technology advances day by day, and so do we. We work continuously to stay abreast of the latest tools available.",
-      "card5title": "Quality through good practices",
-      "card5desc": "A quality product is achieved by taking the correct actions from day one, which is why following good practices in our work is key for us.",
-      "card6title": "Teamwork",
-      "card6desc": "The above can only be accomplished through collaboration and ongoing communication. Our clients are an essential part of this and we want them to be part of our work team."
-    }
+    "aboutUs": "About us?",
+    "aboutUsDesc": "We are an innovative company formed by a group of engineers from Argentina and Ecuador. Our team has extensive experience in analytics, data science and engineering, software development, infrastructure and artificial intelligence, with a focus dedicated to the world of sports.",
+    "whatWeOffer": "What we offer?",
+    "whatWeOfferDesc": "Our commitment is to help clubs reach their full potential, making the most of technology and data management to achieve optimal performance in the world of sport.",
+    "cardDataSolution": "Cutting-edge sports software solutions.",
+    "cardDataExperience": "Experience in collecting, structuring, transforming and distributing sports data.",
+    "cardDataGeneration": "Generation of automated reports for more agile and timely decision making.",
+    "cardDataManagement": "Frameworks designed for efficient data and process management.",
+    "cardDataTraining": "Training programs to improve competency in sports technology.",
+    "cardDataCustomer": "Tailored development of specific technological solutions for each client.",
+    "cardDataConsultancy": "Consulting services specialized in the field of sports technology.",
+    "seeMore": "See more",
+    "seeLess": "See less"
+  },
+  "identity": {
+    "mission": "Mission",
+    "missionDesc": "Our mission is to become the strategic ally of every sports club that aspires to make technology and data the foundation of its growth. We are dedicated to being the epicenter of research, development and innovation (R&D&i) and data management for each club, providing world-class knowledge and technological solutions.",
+    "vision": "Vision",
+    "visionDesc": "Our vision is to forge the most influential R&D&I and data management center in Latin America, integrating ourselves into sports clubs throughout the continent. We aim to level the playing field, providing solutions and insights and ensuring that clubs of all sizes use their full potential to compete at the highest level.",
+    "ourValues": "Our values",
+    "valuesEmpathy": "Empathy",
+    "valuesEmpathyDesc": "We firmly believe that success lies in deeply understanding the needs of each club. We work closely to find solutions that have real, lasting and meaningful impact.",
+    "valuesMutualGrowth": "Mutual Growth",
+    "valuesMutualGrowthDesc": "We believe that our growth is intrinsically linked to that of our business partners. We strive to help them develop while constantly learning from their experience.",
+    "valuesTransparency": "Transparency",
+    "valuesTransparencyDesc": "Trust is the foundation of any long-lasting and solid relationship. We are proud to maintain a high degree of transparency in every action we take.",
+    "valuesContImp": "Continuous Improvement",
+    "valuesContImpDesc": "We recognize that technology is constantly advancing, and we advance with it. We work tirelessly to stay abreast of the latest technological advances and offer the best to our customers.",
+    "valuesQuality": "Quality through good practices",
+    "valuesQualityDesc": "We understand that the quality of a product is achieved by making the right decisions from the beginning. Therefore, we rigorously follow best practices in our work to ensure exceptional results.",
+    "valuesTeamwork": "Teamwork",
+    "valuesTeamworkDesc": "Collaboration and continuous communication are essential to achieve the above. We consider our business partners as an integral part of our work team and encourage close collaboration to achieve our common goals.",
+    "seeMore": "See more",
+    "seeLess": "See less"
+  },
+  "areas": {
+    "knowledge": "Knowledge Areas",
+    "knowledgeDesc": "We are experts in",
+    "science": "Data Science",
+    "engineering": "Data Engineering",
+    "analysis": "Analysis of data",
+    "softwareDev": "Software development",
+    "architecture": "Software Architecture",
+    "infrastructure": "Software Infrastructure",
+    "collectIntegration": "Data Collection and Integration",
+    "bigData": "Big Data",
+    "ai": "Artificial intelligence",
+    "recognition": "Image Recognition",
+    "models": "Great language models",
+    "management": "Project management",
+    "technologies": "Technologies",
+    "technologiesDesc": "Our solutions use"
+  },
+  "solutions": {
+    "scouting": "Scouting",
+    "scoutingFp": "Search for players with a specific profile",
+    "scoutingSp": "Analysis of possible signings",
+    "scoutingTp": "Player tracking",
+    "analysis": "Rival analysis",
+    "analysisFp": "Automated report generation",
+    "analysisSp": "Identification of strengths and weaknesses",
+    "analysisTp": "Streamline the video trimming process",
+    "improvement": "Performance improvement",
+    "improvementFp": "Monitoring of improvement indicators",
+    "improvementSp": "Integration of training data with sports results",
+    "improvementTp": "Tactical Objective Assessment",
+    "training": "Training areas",
+    "trainingFp": "Establishment of frameworks",
+    "trainingSp": "Identification of player with potential",
+    "trainingTp": "Monitoring the physical and tactical growth of players",
+    "kinesiology": "Kinesiology and sports medicine",
+    "kinesiologyFp": "Alert systems for injury prevention",
+    "kinesiologySp": "Interactive dashboards with GPS data, loads and injuries",
+    "kinesiologyTp": "Tracking physical goals",
+    "solutionsTitle": "Solutions",
+    "solutionsDesc": "We develop solutions according to the needs and growth stage of each club. Some of the areas we currently work in are...",
+    "seeMore": "See more..."
+  },
+  "projects": {
+    "developed": "Developed projects",
+    "pipeline": "Renard Data Pipeline",
+    "pipelineDesc": "We simplify the collection, integration and analysis of data from various sources. Our automated tool processes unstructured data, generates relevant statistics and stores your data in an organized way in the cloud. This way, you will have immediate access to the information you need for the day-to-day running of your club.",
+    "superset": "Renard Superset",
+    "supersetDesc": "Our web platform offers interactive and dynamic dashboards that allow you to analyze and view your club's information quickly and accessible from any device. At Superset, our clients have the ability to design and create their own reports, updated daily with the data they generate. This gives you confidence in making strategic decisions backed by accurate and up-to-date information.",
+    "reports": "Automated reports",
+    "reportsDesc": "With our powerful reporting tool, creating professional reports with up-to-date sports metrics is easy. Customize your filters and obtain accurate information in an instant, allowing you to effectively share relevant information with whoever needs it.",
+    "videoAnalyst": "Renard Video Analyst (in development)",
+    "videoAnalystDesc": "Our tool in development that leverages cutting-edge image recognition technology. It will highlight the key players in each match and their actions, allowing you to automatically generate video clippings. This drastically reduces the time spent creating Scouting reports, rival analysis and training sessions."
+  },
+  "alert": {
+    "error": "Failed, try again later",
+    "success": "Sent successfully"
   }
 }

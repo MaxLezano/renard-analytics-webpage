@@ -1,0 +1,32 @@
+.identity {
+  height: 100vh;
+  overflow: hidden;
+}
+.mision, 
+.vision {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+.value-container h3 {
+  color: #004CBF;
+}
+@media (max-width: 600px) {
+  .identity {
+    height: auto;
+  }
+  .mision-vision {
+    flex-direction: column;
+    gap: 3em;
+  }
+  .identity {
+    height: 100%;
+  }
+  .value-container {
+    border-top: 1px solid rgb(255, 255, 255, 0.3);
+  }
+  .value-container h3 {
+    font-size: 1.8em;
+  }
+}

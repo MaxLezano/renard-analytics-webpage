@@ -1,0 +1,227 @@
+:root {
+  --white: #fff;
+}
+.team-container {
+  padding-top: 5em;
+  padding-bottom: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.team-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.team-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+.guy-image-container {
+  user-select: none;
+  position: relative;
+}
+.guy-image-container .shape {
+  position: absolute;
+  object-fit: contain;
+}
+.guy-image-container .vector {
+  width: 32px;
+  height: auto;
+  left: 20px;
+  top: 80px;
+}
+.guy-image-container .circles {
+  width: 35;
+  height: auto;
+  right: 0;
+  top: 100px;
+}
+.guy-image-container .triangle {
+  width: 50px;
+  height: auto;
+  left: -25px;
+  bottom: -10px;
+}
+.guy-image-container .plus-sign {
+  width: 23px;
+  height: auto;
+  right: 0;
+  bottom: 40px;
+}
+.guy-image-container .background-square-frame {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  border-radius: 15px;
+  border: solid 2px var(--white);
+  transform: rotate(23.5deg);
+  margin-top: 100px;
+  top: 24px;
+  left: 52px;
+}
+.guy-image-container::before {
+  content: "";
+  position: absolute;
+  transform: rotate(23.5deg);
+  width: 251px;
+  height: 249.5px;
+  border-radius: 15px;
+  border: solid 3px transparent;
+  border-color: transparent var(--white) var(--white) transparent;
+  margin-top: 100px;
+  top: 62px;
+  left: 68px;
+  z-index: 1;
+}
+.invisible-holder {
+  transform: rotate(23.5deg);
+  overflow: hidden;
+  width: 350px;
+  height: 397px;
+}
+.invisible-holder .square-frame {
+  width: 250px;
+  height: 250px;
+  border-radius: 15px;
+  background-image: linear-gradient(to right, #004CBF, #F14124);
+  border: solid 3px var(--white);
+  margin-top: 100px;
+  position: relative;
+  top: 48px;
+  left: 103px;
+}
+.invisible-holder .square-frame img {
+  transform: rotate(-23.5deg);
+  object-fit: contain;
+  position: relative;
+}
+.guti-style {
+  width: 350px;
+  height: 433px;
+  top: -140px;
+  left: -50px; 
+}
+.facu-style {
+  width: 350px;
+  height: 433px;
+  top: -148px;
+  left: -75px;
+}
+.kemel-style {
+  width: 350px;
+  height: 433px;
+  top: -132px;
+  left: -77px; 
+}
+.german-style {
+  width: 350px;
+  height: 440px;
+  top: -160px;
+  left: -70px;
+}
+.maxi-style {
+  width: 380px;
+  height: 480px;
+  top: -175px;
+  left: -60px;
+}
+.team-card-desc {
+  padding: 2em;
+}
+.team-card-desc h3 {
+  padding-top: 1em;
+  font-size: 2.5em;
+}
+.team-card-desc span {
+  opacity: .8;
+  font-size: 1em;
+}
+.linkedinIcon {
+  color: #004CBF;
+}
+@media (max-width: 600px) {
+  .team-card-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .guy-image-container .background-square-frame {
+    transform: rotate(0);
+    top: 24px;
+    left: 52px;
+  }
+  .guy-image-container::before {
+    transform: rotate(0);
+    height: 249.5px;
+    top: 45.5px;
+  }
+  .invisible-holder {
+    transform: rotate(0);
+  }
+  .invisible-holder .square-frame {
+    top: 45px;
+    left: 68px;
+  }
+  .invisible-holder .square-frame img {
+    transform: rotate(0);
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 87%, rgba(0, 0, 0, 0) 0%);
+  }
+  .guy-image-container .vector {
+    left: 10px;
+    top: 100px;
+  }
+  .guy-image-container .circles {
+    right: 20px;
+    top: 70px;
+  }
+  .guy-image-container .triangle {
+    left: 0;
+    bottom: -50px;
+  }
+  .team-card-desc {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .team-card-desc h3 {
+    font-size: 2.2em;
+    padding-top: 0;
+  }
+  .team-card-desc span {
+    opacity: .8;
+    font-size: 1em;
+  }
+  .guti-style {
+    width: 240px;
+    height: 550px;
+    top: -168px;
+    left: 4px; 
+  }
+  .facu-style {
+    width: 280px;
+    height: 450px;
+    top: -145px;
+    left: -22px;
+  }
+  .kemel-style {
+    width: 270px;
+    height: 450px;
+    top: -136px;
+    left: -26px; 
+  }
+  .german-style {
+    width: 244px;
+    height: 450px;
+    top: -138px;
+    left: 0.3px;
+  }
+  .maxi-style {
+    width: 245px;
+    height: 500px;
+    top: -164px;
+    left: 0px;
+  }
+}

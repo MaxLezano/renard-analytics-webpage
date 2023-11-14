@@ -1,16 +1,14 @@
 {
   "footer": {
     "home": "Inicio",
-    "about": "Acerca de",
-    "hire": "Contratar",
-    "blog": "Blog"
+    "contact": "Contáctanos",
+    "teamwork": "Nuestro equipo de trabajo",
+    "copyright": "Derechos reservados por Renard 2022 ©."
   },
-  "navbar": {
+  "header": {
     "home": "Inicio",
-    "aboutUs": "¿Quienes Somos?",
-    "blog": "Blog",
-    "hire": "Contratar",
-    "language": "Idioma"
+    "contact": "Contactar",
+    "login": "Ingresar"
   },
   "mainBanner": {
     "subtitleBanner": "Estamos construyendo el futuro del deporte.",
@@ -20,74 +18,108 @@
   },
   "contactCard": {
     "hireSubtitle": "Contactar",
-    "titleContact1": "Todas sus consultas son",
-    "titleContact2": "bienvenidas!",
-    "descContact": "Estamos a su disposición por cualquier consulta via correo electrónico a renardanalytics@gmail.com o través de cualquiera de nuestras redes sociales.",
+    "titleContactBlue": "Todas sus consultas",
+    "titleContactOrange": "son bienvenidas!",
+    "descContactStart": "Estamos a su disposición por cualquier consulta via correo electrónico a ",
+    "renardMail": "renardanalytics@gmail.com ",
+    "descContactEnd": "o través de cualquiera de nuestras redes sociales.",
     "placeHoldName": "Nombre y Apellido",
     "placeHoldSubject": "Asunto",
     "placeHoldBox": "Escriba su mensaje aquí",
     "buttonForm": "Enviar"
   },
-  "carouselMain": {
-    "titleCarousel": "Integración de datos",
-    "descriptionCarousel": "Integramos datos de distintas fuentes de forma rápida y eficaz utilizando las más recientes técnicas de ingeniería de datos.",
-    "titleCarousel1": "Análisis deportivo",
-    "descriptionCarousel1": "Analizamos datos cuantitativos y cualitativos para proveer completos informes para la toma de decisiones deportivas, referentes a estrategias, preparación, entrenamientos y más.",
-    "titleCarousel2": "Exploración de jugadores",
-    "descriptionCarousel2": "Proveemos una búsqueda completa y exhaustiva de jugadores según características específicas, rendimiento, proyección a futuro, similaridad y más.",
-    "titleCarousel3": "Asesoría y consultoría",
-    "descriptionCarousel3": "Asesoramos en la implementación de nuevas tecnologías para el deporte, guiando en el proceso y asegurando que tu inversión tenga el mejor retorno posible."
-  },
-  "main": {
-    "work": {
-      "subtitle": "Trabajo en progreso",
-      "title": "Un equipo experimentado, juntos desde 2021.",
-      "description": "Somos un equipo de experimentados analistas e ingenieros de datos. Nos unimos hace poco, pero ya logramos mucho.",
-      "th1": "Soluciones completadas",
-      "th2": "En Desarrollo",
-      "button": "Ver Mas"
-    },
-    "experience": {
-      "subtitle": "Nuestra experiencia",
-      "title": "Un equipo de profesionales con experiencia.",
-      "description": "Contamos con un equipo de experimentados ingenieros al corriente con un gran abanico de tecnologías."
-    },
-    "contactUs": {
-      "subtitle": "Contactanos",
-      "title": "Todas sus consultas son bienvenidas!",
-      "description": "Estamos a su disposición por cualquier consulta via correo electrónico o través de cualquiera de nuestras redes sociales.",
-      "button": "Contactar"
-    }
-  },
   "about": {
-    "aboutRenard": {
-      "subtitle": "ACERCA DE RENARD",
-      "title": "Big Data deportivo a tu alcance",
-      "description": "Somos un equipo de ingenieros de Argentina y Ecuador. Nos unimos con la misión de acercar tecnologías de análisis de datos de clase mundial a clubes deportivos de latinoamérica para que puedan maximizar su potencial.",
-      "button": "Nuestros productos"
-    },
-    "ourVision": {
-      "subtitle": "NUESTRA VISIÓN",
-      "title": "Ser referentes regionales en el ámbito del big data deportivo.",
-      "description": "El big data deportivo ya es una realidad en muchos países. Queremos ser referentes en acercar las últimas tecnologías en deporte a los clubes de la región para que compitan a nivel global.",
-      "button": "Contactar"
-    },
-    "ourValues": {
-      "subtitle": "NUESTROS VALORES",
-      "title": "Guían nuestro día a día.",
-      "description": "En renard creemos estos principios, y trabajamos a diario para poder cumplirlos.",
-      "card1title": "Empatía",
-      "card1desc": "Creemos que el éxito se encuentra en comprender a fondo las necesidades de nuestros clientes, por eso trabajamos juntos en encontrar la solución justa con el mejor retorno de inversión.",
-      "card2title": "Crecimiento conjunto",
-      "card2desc": "Creemos que nuestro crecimiento va de la mano del de nuestros clientes, los ayudamos a desarrollarse al tiempo que aprendemos de ellos constantemente.",
-      "card3title": "Transparencia",
-      "card3desc": "Porque cualquier relación fiable y duradera se basa en la confianza, nos jactamos de ser una empresa transparente interna y externamente.",
-      "card4title": "Mejora continua",
-      "card4desc": "La tecnología avanza día a día, y también lo hacemos nosotros. Trabajamos de manera continua para mantenernos al corriente de las últimas herramientas disponibles.",
-      "card5title": "Calidad a través de buenas prácticas",
-      "card5desc": "Un producto de calidad se consigue tomando las acciones correctas desde el primer día, por eso seguir buenas prácticas en nuestro trabajo es clave para nosotros.",
-      "card6title": "Trabajo en equipo",
-      "card6desc": "Lo mencionado solo se puede cumplir a través de la colaboración y la comunicación continua. Nuestros clientes son parte esencial de esto y buscamos que sean parte de nuestro equipo de trabajo."
-    }
+    "aboutUs": "¿Quiénes somos?",
+    "aboutUsDesc": "Somos una empresa innovadora formada por un grupo de ingenieros de Argentina y Ecuador. Nuestro equipo cuenta con amplia experiencia en análisis, ciencia e ingeniería de datos, desarrollo de software, infraestructura e inteligencia artificial, con un enfoque dedicado al mundo del deporte.",
+    "whatWeOffer": "¿Qué ofrecemos?",
+    "whatWeOfferDesc": "Nuestro compromiso es ayudar a los clubes a alcanzar su máximo potencial, aprovechando al máximo la tecnología y la gestión de datos para lograr un rendimiento óptimo en el mundo del deporte.",
+    "cardDataSolution": "Soluciones de software deportivo de vanguardia.",
+    "cardDataExperience": "Experiencia en la recolección, estructuración, transformación y distribución de datos deportivos.",
+    "cardDataGeneration": "Generación de informes automatizados para una toma de decisiones más ágil y oportuna.",
+    "cardDataManagement": "Marcos de trabajo diseñados para la eficiente gestión de datos y procesos.",
+    "cardDataTraining": "Programas de capacitación para mejorar la competencia en tecnología deportiva.",
+    "cardDataCustomer": "Desarrollo a medida de soluciones tecnológicas específicas para cada cliente.",
+    "cardDataConsultancy": "Servicios de consultoría especializada en el campo de la tecnología deportiva.",
+    "seeMore": "Ver más",
+    "seeLess": "Ver menos"
+  },
+  "identity": {
+    "mission": "Misión",
+    "missionDesc": "Nuestra misión es convertirnos en el aliado estratégico de cada club deportivo que aspire a hacer de la tecnología y los datos el cimiento de su crecimiento. Nos dedicamos a ser el epicentro de investigación, desarrollo e innovación (I+D+i) y gestión de datos de cada club, proporcionando conocimientos y soluciones tecnológicas de clase mundial.",
+    "vision": "Visión",
+    "visionDesc": "Nuestra visión es forjar el centro de I+D+i y gestión de datos más influyente de América Latina, integrándonos en clubes deportivos en todo el continente. Aspiramos a nivelar el campo de juego, brindando soluciones y conocimientos y asegurando que clubes de todas las dimensiones usen todo su potencial para competir al más alto nivel.",
+    "ourValues": "Nuestros Valores",
+    "valuesEmpathy": "Empatía",
+    "valuesEmpathyDesc": "Creemos firmemente que el éxito radica en comprender profundamente las necesidades de cada club. Trabajamos en estrecha colaboración para encontrar soluciones que tengan un impacto real, duradero y significativo.",
+    "valuesMutualGrowth": "Crecimiento Mutuo",
+    "valuesMutualGrowthDesc": "Consideramos que nuestro crecimiento está intrínsecamente ligado al de nuestros socios comerciales. Nos esforzamos por ayudarles a desarrollarse mientras aprendemos de su experiencia de manera constante.",
+    "valuesTransparency": "Transparencia",
+    "valuesTransparencyDesc": "La confianza es el cimiento de cualquier relación duradera y sólida. Nos enorgullece mantener un alto grado de transparencia en cada acción que realizamos.",
+    "valuesContImp": "Mejora Continua",
+    "valuesContImpDesc": "Reconocemos que la tecnología avanza constantemente, y nosotros avanzamos con ella. Trabajamos incansablemente para mantenernos al tanto de los últimos avances tecnológicos y ofrecer lo mejor a nuestros clientes.",
+    "valuesQuality": "Calidad a través de buenas prácticas",
+    "valuesQualityDesc": "Entendemos que la calidad de un producto se logra al tomar las decisiones adecuadas desde el principio. Por lo tanto, seguimos rigurosamente las mejores prácticas en nuestro trabajo para garantizar resultados excepcionales.",
+    "valuesTeamwork": "Trabajo en Equipo",
+    "valuesTeamworkDesc": "La colaboración y la comunicación continua son esenciales para lograr lo mencionado anteriormente. Consideramos a nuestros socios comerciales como una parte integral de nuestro equipo de trabajo y fomentamos una colaboración estrecha para alcanzar nuestros objetivos comunes.",
+    "seeMore": "Ver más",
+    "seeLess": "Ver menos"
+  },
+  "areas": {
+    "knowledge": "Áreas de Conocimiento",
+    "knowledgeDesc": "Somos expertos en",
+    "science": "Ciencia de Datos",
+    "engineering": "Ingeniería de Datos",
+    "analysis": "Análisis de Datos",
+    "softwareDev": "Desarrollo de Software",
+    "architecture": "Arquitectura de Software",
+    "infrastructure": "Infraestructura de Software",
+    "collectIntegration": "Recolección e Integración de datos",
+    "bigData": "Big Data",
+    "ai": "Inteligencia Artificial",
+    "recognition": "Reconocimiento de Imágenes",
+    "models": "Grandes modelos de lenguaje",
+    "management": "Gestión de Proyectos",
+    "technologies": "Tecnologías",
+    "technologiesDesc": "Nuestras soluciones utilizan"
+  },
+  "solutions": {
+    "scouting": "Scouting",
+    "scoutingFp": "Búsqueda de jugadores con un perfil determinado",
+    "scoutingSp": "Análisis de posibles fichajes",
+    "scoutingTp": "Seguimiento de jugadores",
+    "analysis": "Análisis del rival",
+    "analysisFp": "Generación de reportes automatizados",
+    "analysisSp": "Identificación de fortalezas y debilidades",
+    "analysisTp": "Agilizar el proceso de recorte de vídeos",
+    "improvement": "Mejora de rendimiento",
+    "improvementFp": "Seguimiento de indicadores de mejora",
+    "improvementSp": "Integración de datos de entrenamiento con resultados deportivos",
+    "improvementTp": "Evaluación de objetivos tácticos",
+    "training": "Áreas formativas",
+    "trainingFp": "Establecimiento de marcos de trabajo",
+    "trainingSp": "Identificación de jugador con potencial",
+    "trainingTp": "Seguimiento del crecimiento físico y táctico de jugadores",
+    "kinesiology": "Kinesiología y medicina deportiva",
+    "kinesiologyFp": "Sistemas de alerta para la prevención de lesiones",
+    "kinesiologySp": "Dashboards interactivos con datos GPS, cargas y lesiones",
+    "kinesiologyTp": "Seguimiento de objetivos físicos",
+    "solutionsTitle": "Soluciones",
+    "solutionsDesc": "Desarrollamos soluciones acordes a las necesidades y la etapa de crecimiento de cada club. Algunas de las áreas en las que actualmente trabajamos son...",
+    "seeMore": "Ver más..."
+  },
+  "projects": {
+    "developed": "Proyectos desarrollados",
+    "pipeline": "Renard Data Pipeline",
+    "pipelineDesc": "Simplificamos la recopilación, integración y análisis de datos de diversas fuentes. Nuestra herramienta automatizada procesa datos no estructurados, genera estadísticas relevantes y almacena tus datos de forma organizada en la nube. Así, tendrás acceso inmediato a la información que necesitas para el día a día de tu club.",
+    "superset": "Renard Superset",
+    "supersetDesc": "Nuestra plataforma web ofrece tableros interactivos y dinámicos que te permiten analizar y visualizar la información de tu club de manera rápida y accesible desde cualquier dispositivo. En Superset, nuestros clientes tienen la capacidad de diseñar y crear sus propios informes, actualizados diariamente con los datos que generan. Esto te brinda la confianza en la toma de decisiones estratégicas respaldadas por información precisa y actualizada.",
+    "reports": "Reportes automatizados",
+    "reportsDesc": "Con nuestra potente herramienta de generación de reportes, crear informes profesionales con métricas deportivas actualizadas es sencillo. Personaliza tus filtros y obtén información precisa en un instante, permitiendo compartir de manera efectiva la información relevante con quien lo necesite.",
+    "videoAnalyst": "Renard Video Analyst (en desarrollo)",
+    "videoAnalystDesc": "Nuestra herramienta en desarrollo que aprovecha tecnología de reconocimiento de imágenes de vanguardia. Destacará a los actores clave en cada partido y sus acciones, permitiéndote generar automáticamente recortes de video. Esto reduce drásticamente el tiempo invertido en la creación de informes de Scouting, análisis de rivales y sesiones de entrenamiento."
+  },
+  "alert": {
+    "error": "Error, inténtalo de nuevo más tarde",
+    "success": "Enviado correctamente"
   }
 }

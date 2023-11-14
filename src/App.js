@@ -1,14 +1,14 @@
-import Header from "./components/Header/Header";
-import Main from "./components/Main/Main";
-import Footer from "./components/Footer/Footer";
+import Header from "./components/header/Header";
+import Main from "./components/main/Main";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
-    <>
-      <Header className='bgHome' />
+    <div className="background-container">
+      <Header />
       <Main />
       <Footer />
-    </>
+    </div>
   );
 }
 
