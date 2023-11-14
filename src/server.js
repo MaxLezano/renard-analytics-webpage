@@ -30,7 +30,7 @@ app.post('/send-email', (req, res) => {
   const mailOptions = {
     from: SENDER_EMAIL,
     to: 'renardanalytics@gmail.com',
-    subject: `Nuevo mensaje de ${name}: ${subject}`,
+    subject: `New message from ${name}: ${subject}`,
     text: message,
   };
 
@@ -38,10 +38,10 @@ app.post('/send-email', (req, res) => {
     if (error) {
       return res.status(500).send(error.toString());
     }
-    res.status(200).send('Correo electrónico enviado: ' + info.response);
+    res.status(200).send('E-mail sent: ' + info.response);
   });
 });
 
 app.listen(port, () => {
-  console.log(`Servidor escuchando en el puerto ${port}`);
+  console.log(`Server listening on port: ${port}`);
 });

@@ -30,9 +30,9 @@
   },
   "about": {
     "aboutUs": "About us?",
-    "aboutUsDesc": "We are an innovative company formed by a group of engineers from Argentina and Ecuador. Our team has extensive experience in analytics, data science and engineering, software development, infrastructure and artificial intelligence, with a focus dedicated to the world of sports.",
-    "whatWeOffer": "What we offer?",
-    "whatWeOfferDesc": "Our commitment is to help clubs reach their full potential, making the most of technology and data management to achieve optimal performance in the world of sport.",
+    "aboutUsDesc": "We are an innovative company formed by a group of engineers from Argentina and Ecuador. Our team has extensive experience in analytics, data science and engineering, software development, infrastructure and artificial intelligence, with a focus on sports.",
+    "whatWeOffer": "What do we offer?",
+    "whatWeOfferDesc": "Our commitment is to help clubs reach their full potential, making the most of technology and data management to achieve optimal performance in the world of sports.",
     "cardDataSolution": "Cutting-edge sports software solutions.",
     "cardDataExperience": "Experience in collecting, structuring, transforming and distributing sports data.",
     "cardDataGeneration": "Generation of automated reports for more agile and timely decision making.",
