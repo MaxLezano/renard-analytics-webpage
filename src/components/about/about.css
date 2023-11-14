@@ -1,0 +1,79 @@
+.about {
+  height: 100vh;
+  overflow: hidden;
+}
+.about-us {
+  padding-top: 5em;
+}
+.we-offer {
+  padding-left: 0;
+}
+.card-container {
+  gap: 1em;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.items-container {
+  display: none;
+}
+.item {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  border-top: 1px solid rgb(255, 255, 255, 0.3);
+  padding-right: 0.5em;
+}
+.icon {
+  background-color: white;
+  border-radius: 100%;
+  padding: 0.5em;
+  margin-right: 1em;
+  box-shadow: 2px 4px 5px 2px rgba(0, 0, 0, 0.3);
+}
+.icon path {
+  fill: #004CBF;
+}
+.toggle-button {
+  display: none;
+}
+@media (max-width: 600px) {
+  .about {
+    height: 100%;
+  }
+  .about-us, .we-offer {
+    padding: 2em;
+    padding-bottom: 1.5em;
+  }
+  .title-card-container {
+    flex-direction: column;
+    gap: 0.5em;
+  }
+  .card-container {
+    display: none;
+  }
+  .items-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .toggle-button {
+    display: block;
+    color: white;
+    border: 1px solid white;
+    text-transform: uppercase;
+  }
+  .toggle-button:focus {
+    border-color: white;
+    color: white;
+    outline: none;
+  }
+  .toggle-button:hover {
+    display: block;
+    color: #004CBF;
+    border: 1px solid #004CBF;
+    border-radius: 10px;
+  }
+}

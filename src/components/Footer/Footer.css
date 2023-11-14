@@ -1,3 +1,65 @@
-.bgColor{
-  background-color: #212529;
+.footer-bg {
+  background-color: rgb(50, 50, 50);
+  overflow: hidden;
+}
+.foot-footer-gb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(20, 20, 20);
+}
+.social-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-text {
+  font-size: 0.9em;
+  color: rgb(170, 170, 170);
+}
+.footer-text:hover {
+  color: white;
+  transition: 0.5s;
+}
+.btn-teamwork {
+  border: none;
+  background: none;
+}
+.social-icon path {
+  fill: rgb(100, 100, 100);
+}
+.facebook path:hover {
+  fill: rgb(0, 81, 255);
+  transition: 0.5s;
+}
+.youtube path:hover {
+  fill: rgb(255, 60, 0);
+  transition: 0.5s;
+}
+.twitter path:hover {
+  fill: rgb(0, 174, 255);
+  transition: 0.5s;
+}
+.foot-footer-text {
+  font-size: 0.8em;
+  color: rgb(100, 100, 100);
+}
+@media (max-width: 600px) {
+  .footer-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .foot-footer-gb {
+    flex-direction: column;
+  }
+  .foot-footer-text {
+    padding-top: 3px;
+  }
+  .social-footer {
+    flex-direction: row;
+    padding-top: 3px;
+  }
 }

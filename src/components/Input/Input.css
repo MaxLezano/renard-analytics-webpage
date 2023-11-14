@@ -9,11 +9,11 @@
   border-radius: 5px;
 }
 .cont-input label:hover{
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid #004CBF;
   transition: 0.5s;
 }
 .cont-input label.focus{
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid #004CBF;
 }
 .cont-input label span{
   color: rgb(150, 150, 150);
@@ -24,7 +24,7 @@
   margin-left: 5px;
 }
 .cont-input span.focus{
-  color: red;
+  color: #004CBF;
 }
 .cont-input span.top{
   left: 0;

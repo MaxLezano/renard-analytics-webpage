@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
-import './Textarea.css';
+import './textarea.css';
 
-function Textarea({ classNameSpan, descriptionTextarea, classNameTextarea, nameTextarea, idTextarea }) {
+function Textarea({ classNameSpan, descriptionTextarea, classNameTextarea, nameTextarea, idTextarea, onChange, textareaValue }) {
 
   useEffect(() => {
     const textareaSelector = document.querySelectorAll('#textareaSelector');
@@ -24,10 +24,10 @@ function Textarea({ classNameSpan, descriptionTextarea, classNameTextarea, nameT
   }, [classNameSpan]);
 
   return (
-    <div className='cont-text-area col-10'>
+    <div className='cont-text-area col-10 pt-1'>
       <label>
         <span id='textareaSelector' className={`${classNameSpan}`}>{descriptionTextarea}</span>
-        <textarea className={classNameTextarea} name={nameTextarea} id={idTextarea} />
+        <textarea className={classNameTextarea} name={nameTextarea} id={idTextarea} onChange={onChange} value={textareaValue} />
       </label>
     </div>
   );

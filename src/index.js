@@ -2,8 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import App from "./App";
-import About from "./pages/About/About";
-import Blog from './pages/Blog/Blog';
+import Team from './pages/team';
 import reportWebVitals from "./reportWebVitals";
 import { I18nextProvider } from 'react-i18next';
 import i18next from 'i18next';
@@ -32,8 +31,7 @@ root.render(
       <BrowserRouter>
         <Routes >
           <Route path="/" element={<App />} />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/team" element={<Team />} />
         </Routes>
       </BrowserRouter>
     </I18nextProvider>

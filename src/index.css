@@ -1,3 +1,85 @@
 body{
-  background-color: rgba(26,32,44,1);
+  background-color: rgba(30,30,30);
+  overflow-x: hidden;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.modal-backdrop {
+  z-index: -1;
+}
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(70, 70, 70, 0.5);
+}
+::-webkit-scrollbar-thumb {
+  background: #f13f248e;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #F14124;
+}
+
+/* FONT ROBOTO */
+.extra-light-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+.extra-light-italic-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+.light-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+.light-italic-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+.regular-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+.regular-italic-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+.bold-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+}
+.bold-italic-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+/* FONT TEKO */
+.light-title {
+  font-family: 'Teko', sans-serif;
+  font-weight: 300;
+}
+.regular-title {
+  font-family: 'Teko', sans-serif;
+  font-weight: 400;
+}
+.medium-title {
+  font-family: 'Teko', sans-serif;
+  font-weight: 500;
+}
+.semibold-title {
+  font-family: 'Teko', sans-serif;
+  font-weight: 600;
+}
+.bold-title {
+  font-family: 'Teko', sans-serif;
+  font-weight: 700;
 }

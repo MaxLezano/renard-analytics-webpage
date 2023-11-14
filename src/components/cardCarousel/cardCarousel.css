@@ -1,0 +1,57 @@
+.carousel-container {
+  margin: auto;
+  width: 100%;
+}
+.card-value {
+  background: white;
+  transition: opacity 0.5s, transform 0.5s;
+  filter: blur(5px);
+  opacity: 0.5;
+  transform: scale(0.8);
+  overflow: hidden;
+  height: 35vh;
+  width: 100%;
+  min-height: 0;
+}
+.card-value.active {
+  opacity: 1;
+  transform: scale(1);
+  border-bottom: 5px solid #004CBF;
+  box-shadow: 2px 2px 15px 5px rgba(0, 0, 0, 0.3);
+  filter: none;
+}
+.card-value.active .value-content {
+  overflow: auto;
+}
+.carousel-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+.carousel-dots li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel-dot {
+  width: 12px;
+  height: 12px;
+  background-color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.carousel-dot.active {
+  background-color: #004CBF;
+}
+.card-value h3 {
+  color: #004CBF;
+  font-size: 2.5em;
+}
+@media (max-width: 600px) {
+  .carousel-container {
+    display: none;
+  }
+}

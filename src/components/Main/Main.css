@@ -1,15 +1,5 @@
-.imgSize {
-  height: 235px;
-}
-
-.parrafoStyle {
-  color: #f05454;
-  font-size: 25px;
-  font-weight: bold;
-}
-
-.h3Style {
-  color: rgb(255, 255, 255);
-  font-size: 35px;
-  font-weight: bold;
+.divider {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+  width: 80%;
+  align-self: center;
 }

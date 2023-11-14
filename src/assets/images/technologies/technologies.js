@@ -1,0 +1,27 @@
+const technologies = {
+  Python: require('./python.webp'),
+  Javascript: require('./javascript.webp'),
+  Typescript: require('./typescript.webp'),
+  HTMLicon: require('./html.webp'),
+  CSSicon: require('./css.webp'),
+  MySQL: require('./mysql.webp'),
+  MongoDB: require('./mongodb.webp'),
+  Parquet: require('./parquet.webp'),
+  Neo4j: require('./neo4j.webp'),
+  ReactJs: require('./reactjs.webp'),
+  Redux: require('./redux.webp'),
+  Django: require('./django.webp'),
+  Flask: require('./flask.webp'),
+  Bootstrap: require('./bootstrap.webp'),
+  MaterialUI: require('./materialui.webp'),
+  Spark: require('./spark.webp'),
+  Superset: require('./superset.webp'),
+  PowerBI: require('./powerbi.webp'),
+  UltralyticsYolo: require('./ultralyticsyolo.webp'),
+  ChatGPT: require('./chatgpt.webp'),
+  DigitalOcean: require('./digitalocean.webp'),
+  AWSicon: require('./aws.webp'),
+  Auth0: require('./auth0.webp'),
+};
+
+export default technologies;
