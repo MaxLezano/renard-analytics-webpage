@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Button from '../button/Button';
 import ContactCard from '../contactCard/ContactCard';
 import Divider from '@mui/material/Divider';
-import { FacebookRounded, Twitter, YouTube } from '@mui/icons-material';
+import { Instagram } from '@mui/icons-material';
 import { useTranslation } from 'react-i18next';
 import './footer.css'
 
@@ -40,9 +40,7 @@ function Footer() {
       <div className='container-fluid px-5 py-1 foot-footer-gb'>
         <p className='m-0 px-2 light-italic-text foot-footer-text'>{t('footer.copyright')}</p>
         <div className='px-3 social-footer'>
-          <button className='btn border-0 social-icon facebook' href='/'><FacebookRounded /></button>
-          <button className='btn border-0 social-icon youtube' href='/'><YouTube /></button>
-          <button className='btn border-0 social-icon twitter' href='/'><Twitter /></button>
+          <button className='btn border-0 social-icon instagram' href='/'><Instagram /></button>
         </div>
       </div>
     </div>

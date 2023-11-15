@@ -84,7 +84,7 @@
 .public-icon path {
   fill: rgb(170, 170, 170);
 }
-.icon-action path:hover {
+.icon-action:hover path {
   fill: white;
   transition: 0.5s;
 }

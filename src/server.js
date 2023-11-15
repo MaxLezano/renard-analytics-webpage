@@ -1,19 +1,11 @@
-require('dotenv').config();
-
 const express = require('express');
-const app = express();
 const cors = require('cors');
-
-app.use(express.json());
-app.use(cors());
-
 const nodemailer = require('nodemailer');
 const bodyParser = require('body-parser');
 
-const port = process.env.PORT;
-const GOOGLE_API_KEY = process.env.GOOGLE_API_KEY
-const SENDER_EMAIL = process.env.SENDER_EMAIL
-
+const app = express();
+app.use(express.json());
+app.use(cors());
 app.use(bodyParser.json());
 
 app.post('/send-email', (req, res) => {
@@ -22,13 +14,13 @@ app.post('/send-email', (req, res) => {
   const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: SENDER_EMAIL,
-      pass: GOOGLE_API_KEY
+      user: process.env.SENDER_EMAIL,
+      pass: process.env.GOOGLE_API_KEY
     },
   });
 
   const mailOptions = {
-    from: SENDER_EMAIL,
+    from: process.env.SENDER_EMAIL,
     to: 'renardanalytics@gmail.com',
     subject: `New message from ${name}: ${subject}`,
     text: message,
@@ -42,6 +34,4 @@ app.post('/send-email', (req, res) => {
   });
 });
 
-app.listen(port, () => {
-  console.log(`Server listening on port: ${port}`);
-});
+module.exports = app;

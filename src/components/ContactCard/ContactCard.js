@@ -6,7 +6,6 @@ import Alerts from '../alert/Alerts';
 import './contactCard.css';
 import { useTranslation } from 'react-i18next';
 import axios from 'axios';
-const { REACT_APP_BASE_URL } = process.env;
 
 function ContactCard({onClick}) {
   const [t] = useTranslation('global');
@@ -24,7 +23,7 @@ function ContactCard({onClick}) {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post(`${REACT_APP_BASE_URL}/send-email`, formData);
+      await axios.post('/send-email', formData);
       setEmailStatus(true);
       setFormData({
         name: '',
@@ -53,7 +52,7 @@ function ContactCard({onClick}) {
               {t('contactCard.descContactEnd')}
             </p>
           </div>
-          <form className='modal-body pb-5 pt-0 d-flex flex-column align-items-center' onSubmit={handleSubmit}>
+          {/* <form className='modal-body pb-5 pt-0 d-flex flex-column align-items-center' onSubmit={handleSubmit}>
             <Input
               typeInput="text"
               classNameSpan={`light-italic-text ${formData.name.trim().length === 0 ? '' : ' top'}`}
@@ -78,7 +77,7 @@ function ContactCard({onClick}) {
               textareaValue={formData.message}
             />
             <Button description={t('contactCard.buttonForm')} className={'mt-5 py-2 col-4 regular-text btn-send'} type="submit" />
-          </form>
+          </form> */}
         </div>
       </div>
       <Alerts open={emailStatus} severity={emailStatus? 'success' : 'error'} />
